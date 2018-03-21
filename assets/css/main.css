@@ -589,8 +589,6 @@
 
 	form {
 		margin: 0 0 2em 0;
-        width: 50%;
-        
 	}
 
 		form .message {
@@ -606,7 +604,6 @@
 			height: 2.75em;
 			line-height: 2.75em;
 			opacity: 0;
-            
 		}
 
 			form .message:before {
