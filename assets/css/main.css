@@ -649,9 +649,10 @@
 	label {
 		color: #fff;
 		display: block;
-		font-size: 0.9em;
+		font-size: 14px;
 		font-weight: 700;
 		margin: 0 0 1em 0;
+		
 	}
 
 	@-moz-keyframes focus {
