@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Smarter Events"/>
-  <meta name="keywords" content="website, MJD Group"/>
-  <meta name="author" content="Chigisoft LTD."/>
+  <meta name="description" content=""/>
+  <meta name="keywords" content=""/>
+  <meta name="author" content="Precious Chukundah"/>
 
   <title>Free &amp; Open Source Community - Africa</title>
   <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700" rel="stylesheet">
