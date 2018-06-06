@@ -4,6 +4,9 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+	
+	
+
 (function($) {
 
 	skel.breakpoints({
@@ -15,10 +18,8 @@
 		xxsmall: '(max-width: 360px)'
 	});
 
-	/**
-	 * Applies parallax scrolling to an element's background image.
-	 * @return {jQuery} jQuery object.
-	 */
+
+	
 	$.fn._parallax = (skel.vars.browser == 'ie' || skel.vars.browser == 'edge' || skel.vars.mobile) ? function() { return $(this) } : function(intensity) {
 
 		var	$window = $(window),
