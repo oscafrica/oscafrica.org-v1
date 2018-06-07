@@ -4003,3 +4003,6 @@
 			opacity: 1;
 			visibility: visible;
 		}
+     .subscribe-form .form-control {
+  border-radius: 0;
+}
