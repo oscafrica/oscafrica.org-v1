@@ -3166,7 +3166,6 @@
 			height: 70%;
 			line-height: inherit;
 			padding: 0 1.5em;
-            margin-left: 31px;
             margin-top: 6px;
             }
 #header .logo img{
@@ -3217,8 +3216,9 @@
 		}
          
             img.menu-image {
-    height: 20%;
-    width: 80px;
+                height: 20%;
+                width: 80px;
+                margin-bottom: 20px;
     }
 
 			#header nav a {
