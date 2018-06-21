@@ -17,8 +17,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="osca.png"/>
         <!-- Favicon -->
 	</head>
-	<body>
-        
+	
         
 
 		<!-- Wrapper -->
@@ -225,6 +224,19 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+        <script>
+$(document).ready(function() {
+//Preloader
+$(window).on("load", function() {
+preloaderFadeOutTime = 100000000;
+function hidePreloader() {
+var preloader = $('.OSCA');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
+});
+</script>
 
 	</body>
 </html>
