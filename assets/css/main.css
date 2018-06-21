@@ -3424,7 +3424,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("/34562237_1518089608301624_2008041813838921728_o.jpg");
+		background-image: url("/IMG_9443.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3443,7 +3443,6 @@
 		position: relative;
 		top: -3.25em;
 	}
-
 		#banner:after {
 			-moz-transition: opacity 2.5s ease;
 			-webkit-transition: opacity 2.5s ease;
@@ -3462,7 +3461,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.90;
+			opacity: 0.79;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3580,7 +3579,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				background-attachment: scroll;
+				
 			}
 
 		}
