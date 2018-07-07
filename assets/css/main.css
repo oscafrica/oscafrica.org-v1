@@ -2646,7 +2646,7 @@
 				position: absolute;
 				right: 1.5em;
 				top: 0;
-				vertical-align: middle;
+			/*	vertical-align: middle; */
 				width: 36px;
 			}
 
@@ -3168,15 +3168,12 @@
 			padding: 0 1.5em;
             margin-top: 6px;
             }
-#header .logo img{
-    height: ;
-    -webkit-height: 
-}
 
 
 
 
-}
+
+
 			#header .logo strong {
 				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -3229,7 +3226,7 @@
 				line-height: inherit;
 				padding: 0 0.75em;
 				position: relative;
-				vertical-align: middle;
+			/*	vertical-align: middle; */
 			}
 
 				#header nav a:last-child {
@@ -3251,7 +3248,7 @@
 						position: absolute;
 						right: 1.5em;
 						top: 0;
-						vertical-align: middle;
+					/*	vertical-align: middle; */
 						width: 24px;
 					}
 
@@ -3940,7 +3937,7 @@
 			text-align: right;
 			text-indent: 8em;
 			top: 0;
-			vertical-align: middle;
+		/*	vertical-align: middle; */
 			white-space: nowrap;
 			width: 8em;
 		}
@@ -4005,3 +4002,4 @@
      .subscribe-form .form-control {
   border-radius: 0;
 }
+
