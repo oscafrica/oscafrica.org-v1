@@ -4002,4 +4002,91 @@
      .subscribe-form .form-control {
   border-radius: 0;
 }
+@keyframes mask-move {
+	0% {
+	  transform: translateX(0);
+	}
+	100% {
+	  transform: translateX(129px);
+	}
+  }
+  @keyframes mask-inner-move {
+	0% {
+	  transform: translateX(0);
+	}
+	100% {
+	  transform: translateX(-129px);
+	}
+  }
+  *,
+  *:before,
+  *:after {
+	box-sizing: border-box;
+  }
+
+  
+  #OSCA {
+	justify-content: center;
+	align-items: center;
+	background: #24294C;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	height: 100%;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: 99;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+  }
+  .OSCA {
+	margin: 100px auto;
+	width: 40px;
+	height: 40px;
+	position: relative;
+  }
+  
+  .OSCA {
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: .2rem;
+	line-height: 1;
+	position: relative;
+	width: 179px;
+  }
+  .OSCA:before {
+	content: '#OSCA';
+	filter: blur(3px);
+  }
+  .OSCA:after {
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: calc(100% + 8px);
+	top: -4px;
+	left: 0;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	animation: mask-move 1s linear infinite alternate;
+  }
+  .OSCA--mask {
+	overflow: hidden;
+	position: absolute;
+	width: 50px;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #24294C;
+	animation: mask-move 1s linear infinite alternate;
+  }
+  .OSCA--mask-inner {
+	animation: mask-inner-move 1s linear infinite alternate;
+  }
+  
 

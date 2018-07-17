@@ -18,6 +18,10 @@
 		xxsmall: '(max-width: 360px)'
 	});
 
+	$(window).on("load",function(){
+		$('#OSCA').fadeOut('slow',function(){$(this).remove();});
+	});
+
 
 	
 	$.fn._parallax = (skel.vars.browser == 'ie' || skel.vars.browser == 'edge' || skel.vars.mobile) ? function() { return $(this) } : function(intensity) {
