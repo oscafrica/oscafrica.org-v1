@@ -19,10 +19,9 @@
 	});
 
 	$(window).on("load",function(){
-
-
--		$('#OSCA').fadeOut('slow',function(){$(this).remove();});
--	});
+		$('#OSCA').fadeOut('slow',function(){$(this).remove();
+    });
+	});
 
 
 	
