@@ -20,7 +20,8 @@
 
 	$(window).on("load",function(){
 		$('#OSCA').fadeOut('slow',function(){$(this).remove();});
-	});
+		});
+	  
 
 
 	
