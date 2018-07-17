@@ -18,15 +18,9 @@
 		xxsmall: '(max-width: 360px)'
 	});
 
-	document.onreadystatechange = function () {
-		var state = document.readyState
-		if (state == 'complete') {
-			setTimeout(function(){
-				document.getElementById('interactive');
-			   document.getElementById('OSCA').style.visibility="hidden";
-			},9000);
-		}
-	  }
+	$(window).on("load",function(){
+-		$('#OSCA').fadeOut('slow',function(){$(this).remove();});
+-	});
 
 
 	
