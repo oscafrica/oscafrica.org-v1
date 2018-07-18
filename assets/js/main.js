@@ -17,7 +17,7 @@
 		xsmall: '(max-width: 480px)',
 		xxsmall: '(max-width: 360px)'
 	});
-
+  
 	document.onreadystatechange = function () {
 		var state = document.readyState
 		if (state == 'interactive') {
@@ -37,7 +37,6 @@
 
 	  
 	  
-
 
 	
 	$.fn._parallax = (skel.vars.browser == 'ie' || skel.vars.browser == 'edge' || skel.vars.mobile) ? function() { return $(this) } : function(intensity) {
