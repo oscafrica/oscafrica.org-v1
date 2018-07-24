@@ -78,7 +78,20 @@ var
 
 	// Support: Android<4.1
 	// Make sure we trim BOM and NBSP
-	rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,
+	rtrim = /^[\s\<!-- CSS
+		================================================== -->
+		<!-- Themefisher Icon font -->
+		<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+		<!-- bootstrap.min css -->
+		<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+		<!-- Lightbox.min css -->
+		<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+		<!-- Slick Carousel -->
+		<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+		<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+		<!-- Main Stylesheet -->
+		<link rel="stylesheet" href="css/style.css">
+	  uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,
 
 	// Matches dashed string for camelizing
 	rmsPrefix = /^-ms-/,
@@ -94,7 +107,20 @@ jQuery.fn = jQuery.prototype = {
 	jquery: version,
 
 	constructor: jQuery,
-
+	<!-- CSS
+	================================================== -->
+	<!-- Themefisher Icon font -->
+	<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+	<!-- bootstrap.min css -->
+	<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+	<!-- Lightbox.min css -->
+	<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+	<!-- Slick Carousel -->
+	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+  
 	// Start with an empty selector
 	selector: "",
 
@@ -237,7 +263,20 @@ jQuery.extend = jQuery.fn.extend = function() {
 
 	// Return the modified object
 	return target;
-};
+};<!-- CSS
+================================================== -->
+<!-- Themefisher Icon font -->
+<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+<!-- bootstrap.min css -->
+<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+<!-- Lightbox.min css -->
+<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+<!-- Main Stylesheet -->
+<link rel="stylesheet" href="css/style.css">
+
 
 jQuery.extend({
 	// Unique for each copy of jQuery on the page
