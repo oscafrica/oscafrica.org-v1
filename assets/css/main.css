@@ -3339,7 +3339,19 @@
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: <!-- Themefisher Icon font -->
+		<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+		<!-- bootstrap.min css -->
+		<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+		<!-- Lightbox.min css -->
+		<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+		<!-- Slick Carousel -->
+		<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+		<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+		<!-- Main Stylesheet -->
+		<link rel="stylesheet" href="assets/css/style.css">
+	  
+		  </head> 1280px) {
 
 			#header nav a[href="#menu"] {
 				padding-right: 4em !important;
@@ -3472,7 +3484,19 @@
 		#banner > .inner {
 			-moz-transition: opacity 1.5s ease, -moz-transform 0.5s ease-out, -moz-filter 0.5s ease, -webkit-filter 0.5s ease;
 			-webkit-transition: opacity 1.5s ease, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s ease, -webkit-filter 0.5s ease;
-			-ms-transition: opacity 1.5s ease, -ms-transform 0.5s ease-out, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
+			-ms-transition: opa <!-- Themefisher Icon font -->
+			<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+			<!-- bootstrap.min css -->
+			<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+			<!-- Lightbox.min css -->
+			<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+			<!-- Slick Carousel -->
+			<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+			<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+			<!-- Main Stylesheet -->
+			<link rel="stylesheet" href="assets/css/style.css">
+		  
+			  </head>city 1.5s ease, -ms-transform 0.5s ease-out, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
 			transition: opacity 1.5s ease, transform 0.5s ease-out, filter 0.5s ease, -webkit-filter 0.5s ease;
 			padding: 0 !important;
 			position: relative;
@@ -3605,7 +3629,31 @@
 						margin-bottom: 2em;
 					}
 
-				#banner.major {
+				#banner.major { <!-- Themefisher Icon font -->
+					<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+					<!-- bootstrap.min css -->
+					<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+					<!-- Lightbox.min css -->
+					<link rel="s <!-- Themefisher Icon font -->
+					<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+					<!-- bootstrap.min css -->
+					<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+					<!-- Lightbox.min css -->
+					<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+					<!-- Slick Carousel -->
+					<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+					<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+					<!-- Main Stylesheet -->
+					<link rel="stylesheet" href="assets/css/style.css">
+				  
+					  </head>tylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+					<!-- Slick Carousel -->
+					<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+					<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+					<!-- Main Stylesheet -->
+					<link rel="stylesheet" href="assets/css/style.css">
+				  
+					  </head>
 					height: auto;
 					min-height: 0;
 					max-height: none;
@@ -3722,7 +3770,19 @@
 				#contact > .inner > :nth-child(2n - 1) {
 					padding: 4em 0 2em 0 ;
 					border-right: 0;
-					width: 100%;
+					width: 100%; <!-- Themefisher Icon font -->
+					<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+					<!-- bootstrap.min css -->
+					<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+					<!-- Lightbox.min css -->
+					<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+					<!-- Slick Carousel -->
+					<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+					<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+					<!-- Main Stylesheet -->
+					<link rel="stylesheet" href="assets/css/style.css">
+				  
+					  </head>
 				}
 
 				#contact > .inner > :nth-child(2n) {
@@ -3923,7 +3983,19 @@
 			-moz-transition: color 0.2s ease-in-out;
 			-webkit-transition: color 0.2s ease-in-out;
 			-ms-transition: color 0.2s ease-in-out;
-			transition: color 0.2s ease-in-out;
+			transition: color 0.2s ease-in-out; <!-- Themefisher Icon font -->
+			<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+			<!-- bootstrap.min css -->
+			<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+			<!-- Lightbox.min css -->
+			<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+			<!-- Slick Carousel -->
+			<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+			<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+			<!-- Main Stylesheet -->
+			<link rel="stylesheet" href="assets/css/style.css">
+		  
+			  </head>
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
 			cursor: pointer;
@@ -4154,3 +4226,69 @@ h1{
 	 margin : 0 auto;
 	 text-align: center;
  }
+
+
+
+
+
+ .section {
+	 padding : 100px 0;
+	 background-color: #fff;
+ }
+
+ .commonTab .nav-tabs{
+	 border: 1px solid transparent;
+	 text-align: center;
+ }
+ .commonTab .nav-tabs {
+    border:1px solid transparent;
+	text-align: center;
+ }
+    .commonTab  .nav-tabs .nav-item {
+	  margin:0 16px;
+	}
+
+.commonTab .nav-tabs .nav-item .nav-link.active {
+		border: 1px solid #333856;
+		background: #333856;
+		color: #fff;
+	}
+	.commonTab .nav-tabs .nav-item .nav-link {
+		background: #f9f9f9;
+		color: #666;
+		text-transform: capitalize;
+		border-radius: 0;
+	}
+
+	a, a:focus, a:hover {
+		text-decoration: none;
+		outline: 0;
+	  }
+	  a {
+		transition: all .3s ease-in 0s;
+	  }
+	  .commonTab .tab-content {
+		  padding-top: 30px;
+
+	  }
+	  h2{
+		  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		  font-weight: 600;
+		  width: 25%;
+		  text-align: left;
+	  }
+	  /*
+	  .shadow{
+		  box-shadow: 0px opx 30px 0px rgba(0, 0, 0, 0.15);
+	  }
+	  .rounded {
+		  border-radius: .25rem!important;
+*/
+	  }
+	  img{
+		  vertical-align: middle;
+		  border-style: none;
+		  width: 25%;
+	
+	  }
+

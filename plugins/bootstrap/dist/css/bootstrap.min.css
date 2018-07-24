@@ -1,0 +1,100 @@
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+.container {
+    max-width: 720px;
+}
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 768px) {
+.col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+.col-md-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+.nav-tabs .nav-link{
+    border: 1px solid transparent;
+}
+a,{
+    touch-action: manipulation;
+}
+
+*, {
+    box-sizing: border-box;
+}
+/*
+.tab-content> .active{
+    display: block;
+}
+.fade.show {
+    opacity: 1;
+}
+.fade{
+    transition: opacity .15s linear;
+}
+*/
+.align-self-center {
+    align-self: center!important;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    line-height: 1.2;
+    color: #212529;
+    margin-top: 0;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+/*sssss
+.tab-content>.tab-pane{
+    display: none;
+}
+
+
+
+
+
