@@ -3227,7 +3227,8 @@
 				line-height: inherit;
 				padding: 0 0.75em;
 				position: relative;
-			/*	vertical-align: middle; */
+				text-decoration: none; 
+			
 			}
 
 				#header nav a:last-child {
@@ -4185,7 +4186,7 @@ h1{
 	}
 	.commonTab .nav-tabs .nav-item .nav-link {
 		background: #e9ecef;
-		color: #666;
+		color: #fff;
 		text-transform: capitalize;
 		border-radius: 0;
 	}
@@ -4193,9 +4194,14 @@ h1{
 	a, a:focus, a:hover {
 		text-decoration: none;
 		outline: 0;
+		
+	  }
+	  a:focus, a:hover {
+		color: #8079b5;
 	  }
 	  a {
 		transition: all .3s ease-in 0s;
+		text-decoration: none;
 	  }
 	  .commonTab .tab-content {
 		  padding-top: 30px;
@@ -4223,3 +4229,20 @@ h1{
 		background-color: #53e3fb;
 		color: #fff;
 	}
+	footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+footer{
+	display: block;
+}
+.inner{
+	padding: 4em 0 2em 0;
+    margin: 0 auto;
+    max-width: 65em;
+	width: calc(100% - 6em);
+}
