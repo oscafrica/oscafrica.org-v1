@@ -1,7 +1,8 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu:500');
 
-/*
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
@@ -10,7 +11,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, u, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -3605,7 +3606,7 @@
 						margin-bottom: 2em;
 					}
 
-				#banner.major {
+				#banner.major { 
 					height: auto;
 					min-height: 0;
 					max-height: none;
@@ -3722,7 +3723,7 @@
 				#contact > .inner > :nth-child(2n - 1) {
 					padding: 4em 0 2em 0 ;
 					border-right: 0;
-					width: 100%;
+					width: 100%; 
 				}
 
 				#contact > .inner > :nth-child(2n) {
@@ -3770,6 +3771,7 @@
 				margin-left: 0;
 				padding-left: 0;
 			}
+
 
 	@media screen and (max-width: 480px) {
 
@@ -4089,4 +4091,135 @@
 	animation: mask-inner-move 1s linear infinite alternate;
   }
   
+.up{
+		padding: 50px 0;
+		text-align: center;
+		color: #fff;
+		position: relative;
+}
+.ins{
+	width:100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto; 
+}
+@media (min-width: 1200px) {
+.ins{
+	max-width: 1140px;
+}
+}
+.pays{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
 
+}
+@media (min-width: 768px) {
+.ans {
+    flex: 0 0 100%;
+	max-width: 100%;
+}
+}
+.title{
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+h1{
+	font-size: 35px;
+	text-transform: capitalize;
+	color: #fff;
+	margin-bottom: 8px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.2;
+	margin-top: 0;
+	text-align: center;
+
+
+}
+.border{
+	background: steelblue;
+	display: inline-block;
+	height: 6px;
+	position: relative;
+	width: 90px;
+	margin-bottom: 10px;
+	border: 1px solid #e9ecef!important;
+}
+ h5{
+	 color: #fff;
+	 width: 75%;
+	 margin : 0 auto;
+	 text-align: center;
+	 font-family: 'Open Sans', sans-serif;
+ }
+
+
+
+/*about us */
+
+ .section {
+	 padding : 100px 0;
+	 background-color: #fff;
+ }
+
+ .commonTab .nav-tabs{
+	 border: 1px solid transparent;
+	 text-align: center;
+ }
+ .commonTab .nav-tabs {
+    border:1px solid transparent;
+	text-align: center;
+ }
+    .commonTab  .nav-tabs .nav-item {
+	  margin:0 3px;
+	}
+
+.commonTab .nav-tabs .nav-item .nav-link.active {
+		border: 1px solid #333856;
+		background: #8079b5;
+		color: #fff;
+	}
+	.commonTab .nav-tabs .nav-item .nav-link {
+		background: #e9ecef;
+		color: #666;
+		text-transform: capitalize;
+		border-radius: 0;
+	}
+
+	a, a:focus, a:hover {
+		text-decoration: none;
+		outline: 0;
+	  }
+	  a {
+		transition: all .3s ease-in 0s;
+	  }
+	  .commonTab .tab-content {
+		  padding-top: 30px;
+
+	  }
+	  h2{
+		  font-family: 'Open Sans', sans-serif;
+		  font-weight: 600;
+		  width: 45%;
+		  text-align: left;
+	  }
+	  
+	  .shadow{
+		  box-shadow: 0px opx 30px 0px rgba(0, 0, 0, 0.15);
+	  }
+	  .rounded {
+		  border-radius: .25rem!important;
+	  }
+	  h5.icard {
+		  font-family: 'Open Sans', sans-serif;
+		  font-size: 1rem;
+		
+	}
+	#two{
+		background-color: #53e3fb;
+		color: #fff;
+	}
