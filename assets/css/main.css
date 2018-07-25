@@ -1,7 +1,8 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu:500');
 
-/*
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
@@ -10,7 +11,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, u, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -3339,19 +3340,7 @@
 
 		}
 
-		@media screen and (max-width: <!-- Themefisher Icon font -->
-		<link rel="stylesheet" href="plugins/themefisher-font/style.css">
-		<!-- bootstrap.min css -->
-		<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
-		<!-- Lightbox.min css -->
-		<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
-		<!-- Slick Carousel -->
-		<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-		<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
-		<!-- Main Stylesheet -->
-		<link rel="stylesheet" href="assets/css/style.css">
-	  
-		  </head> 1280px) {
+		@media screen and (max-width: 1280px) {
 
 			#header nav a[href="#menu"] {
 				padding-right: 4em !important;
@@ -3484,19 +3473,7 @@
 		#banner > .inner {
 			-moz-transition: opacity 1.5s ease, -moz-transform 0.5s ease-out, -moz-filter 0.5s ease, -webkit-filter 0.5s ease;
 			-webkit-transition: opacity 1.5s ease, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s ease, -webkit-filter 0.5s ease;
-			-ms-transition: opa <!-- Themefisher Icon font -->
-			<link rel="stylesheet" href="plugins/themefisher-font/style.css">
-			<!-- bootstrap.min css -->
-			<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
-			<!-- Lightbox.min css -->
-			<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
-			<!-- Slick Carousel -->
-			<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-			<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
-			<!-- Main Stylesheet -->
-			<link rel="stylesheet" href="assets/css/style.css">
-		  
-			  </head>city 1.5s ease, -ms-transform 0.5s ease-out, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
+			-ms-transition: opacity 1.5s ease, -ms-transform 0.5s ease-out, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
 			transition: opacity 1.5s ease, transform 0.5s ease-out, filter 0.5s ease, -webkit-filter 0.5s ease;
 			padding: 0 !important;
 			position: relative;
@@ -3629,31 +3606,7 @@
 						margin-bottom: 2em;
 					}
 
-				#banner.major { <!-- Themefisher Icon font -->
-					<link rel="stylesheet" href="plugins/themefisher-font/style.css">
-					<!-- bootstrap.min css -->
-					<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
-					<!-- Lightbox.min css -->
-					<link rel="s <!-- Themefisher Icon font -->
-					<link rel="stylesheet" href="plugins/themefisher-font/style.css">
-					<!-- bootstrap.min css -->
-					<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
-					<!-- Lightbox.min css -->
-					<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
-					<!-- Slick Carousel -->
-					<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-					<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
-					<!-- Main Stylesheet -->
-					<link rel="stylesheet" href="assets/css/style.css">
-				  
-					  </head>tylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
-					<!-- Slick Carousel -->
-					<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-					<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
-					<!-- Main Stylesheet -->
-					<link rel="stylesheet" href="assets/css/style.css">
-				  
-					  </head>
+				#banner.major { 
 					height: auto;
 					min-height: 0;
 					max-height: none;
@@ -3770,19 +3723,7 @@
 				#contact > .inner > :nth-child(2n - 1) {
 					padding: 4em 0 2em 0 ;
 					border-right: 0;
-					width: 100%; <!-- Themefisher Icon font -->
-					<link rel="stylesheet" href="plugins/themefisher-font/style.css">
-					<!-- bootstrap.min css -->
-					<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
-					<!-- Lightbox.min css -->
-					<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
-					<!-- Slick Carousel -->
-					<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-					<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
-					<!-- Main Stylesheet -->
-					<link rel="stylesheet" href="assets/css/style.css">
-				  
-					  </head>
+					width: 100%; 
 				}
 
 				#contact > .inner > :nth-child(2n) {
@@ -3983,19 +3924,7 @@
 			-moz-transition: color 0.2s ease-in-out;
 			-webkit-transition: color 0.2s ease-in-out;
 			-ms-transition: color 0.2s ease-in-out;
-			transition: color 0.2s ease-in-out; <!-- Themefisher Icon font -->
-			<link rel="stylesheet" href="plugins/themefisher-font/style.css">
-			<!-- bootstrap.min css -->
-			<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
-			<!-- Lightbox.min css -->
-			<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
-			<!-- Slick Carousel -->
-			<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-			<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
-			<!-- Main Stylesheet -->
-			<link rel="stylesheet" href="assets/css/style.css">
-		  
-			  </head>
+			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
 			cursor: pointer;
@@ -4203,7 +4132,7 @@ h1{
 	color: #fff;
 	margin-bottom: 8px;
 	font-weight: 700;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1.2;
 	margin-top: 0;
 	text-align: center;
@@ -4213,7 +4142,6 @@ h1{
 .border{
 	background: steelblue;
 	display: inline-block;
-	border-radius: 3px;
 	height: 6px;
 	position: relative;
 	width: 90px;
@@ -4225,11 +4153,12 @@ h1{
 	 width: 75%;
 	 margin : 0 auto;
 	 text-align: center;
+	 font-family: 'Open Sans', sans-serif;
  }
 
 
 
-
+/*about us */
 
  .section {
 	 padding : 100px 0;
@@ -4245,16 +4174,16 @@ h1{
 	text-align: center;
  }
     .commonTab  .nav-tabs .nav-item {
-	  margin:0 16px;
+	  margin:0 3px;
 	}
 
 .commonTab .nav-tabs .nav-item .nav-link.active {
 		border: 1px solid #333856;
-		background: #333856;
+		background: #8079b5;
 		color: #fff;
 	}
 	.commonTab .nav-tabs .nav-item .nav-link {
-		background: #f9f9f9;
+		background: #e9ecef;
 		color: #666;
 		text-transform: capitalize;
 		border-radius: 0;
@@ -4272,9 +4201,9 @@ h1{
 
 	  }
 	  h2{
-		  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		  font-family: 'Open Sans', sans-serif;
 		  font-weight: 600;
-		  width: 25%;
+		  width: 45%;
 		  text-align: left;
 	  }
 	  
@@ -4283,12 +4212,13 @@ h1{
 	  }
 	  .rounded {
 		  border-radius: .25rem!important;
-
-	  
-	  img{
-		  vertical-align: middle;
-		  border-style: none;
-		  width: 25%;
-	
 	  }
-
+	  h5.icard {
+		  font-family: 'Open Sans', sans-serif;
+		  font-size: 1rem;
+		
+	}
+	#two{
+		background-color: #53e3fb;
+		color: #fff;
+	}
