@@ -1,6 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu:500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:500');
 
 /*@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 	Forty by HTML5 UP
@@ -4137,7 +4138,7 @@ h1{
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.2;
 	margin-top: 0;
-	text-align: center;
+	
 
 
 }
@@ -4166,6 +4167,24 @@ h1{
 	 padding : 100px 0;
 	 background-color: #fff;
  }
+
+ 
+ h1.def {
+	margin-bottom: .5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+	color: inherit;
+	font-size: 44px;
+
+}
+h5.icard {
+	margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.7;
+    color: inherit;
+}
 
  .commonTab .nav-tabs{
 	 border: 1px solid transparent;
@@ -4226,7 +4245,7 @@ h1{
 		
 	}
 	#two{
-		background-color: #53e3fb;
+		background-color: #74bdd5;
 		color: #fff;
 	}
 	footer{
