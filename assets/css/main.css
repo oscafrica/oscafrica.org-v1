@@ -4204,7 +4204,7 @@ h5.icard {
 		color: #fff;
 	}
 	.commonTab .nav-tabs .nav-item .nav-link {
-		background: #e9ecef;
+		background:		#cfc7e2;
 		color: #fff;
 		text-transform: capitalize;
 		border-radius: 0;
@@ -4215,8 +4215,8 @@ h5.icard {
 		outline: 0;
 		
 	  }
-	  a:focus, a:hover {
-		color: #8079b5;
+	  .commonTab .nav-tabs .nav-item .nav-link:focus, .commonTab .nav-tabs .nav-link:hover {
+		background-color: #8079b5;
 	  }
 	  a {
 		transition: all .3s ease-in 0s;
@@ -4229,7 +4229,6 @@ h5.icard {
 	  h2{
 		  font-family: 'Open Sans', sans-serif;
 		  font-weight: 600;
-		  width: 45%;
 		  text-align: left;
 	  }
 	  
@@ -4264,4 +4263,10 @@ footer{
     margin: 0 auto;
     max-width: 65em;
 	width: calc(100% - 6em);
+}
+
+@media sreen and (min-width: 480px) {
+	.nav-link {
+		padding: 4rem 2rem;
+	}
 }
