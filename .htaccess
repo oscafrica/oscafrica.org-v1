@@ -1,3 +1,8 @@
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
+<IfModule mod_headers.c>
+<FilesMatch "\.(jpg|jpeg|png|gif|swf|JPG)$">
+Header set Cache-Control "max-age=4838400, public"
+</FilesMatch>
+<FilesMatch "\.(css|js|scss)$">
+Header set Cache-Control "max-age=4838400, private"
+</FilesMatch>
+</IfModule>
