@@ -4142,14 +4142,17 @@ h1{
 
 
 }
+span.border {
+	border: 1px solid #e9ecef00!important;
+}
 .border{
 	background: steelblue;
 	display: inline-block;
-	height: 6px;
+	height: 2px;
 	position: relative;
 	width: 90px;
-	margin-bottom: 10px;
-	border: 1px solid #e9ecef!important;
+	margin-bottom: 19px;
+	
 }
  h5{
 	 color: #fff;
