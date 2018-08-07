@@ -38,12 +38,14 @@ h5 {
 h6 {
   font-size: 1.25rem;
 }
-
-p, a, li, blockquote, label {
+  li, blockquote, label {
   font-size: 1rem;
   line-height: 26px;
-  color: #848484;
+  color: white;
   margin-bottom: 0;
+}
+p{
+  color: #2a2a37;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -268,7 +270,6 @@ button:hover {
 }
 
 .bg-title {
-  background: url(/images/IMG_9443.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
