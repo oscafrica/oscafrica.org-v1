@@ -17,7 +17,7 @@
 		xsmall: '(max-width: 480px)',
 		xxsmall: '(max-width: 360px)'
 	});
-  
+  /*
 	document.onreadystatechange = function () {
 		var state = document.readyState
 		if (state == 'interactive') {
@@ -30,7 +30,7 @@
 			},5000);
 		}
 	  }
-
+*/
 	  
 
 	  

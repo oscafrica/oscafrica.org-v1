@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:500');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700");
 
 /*@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 	Forty by HTML5 UP
@@ -4277,3 +4278,180 @@ footer{
 		padding: 4rem 2rem;
 	}
 }
+/* Team page */
+.page-title {
+	text-align: center;
+  }
+  
+  
+  
+  @media (max-width: 1024px) {
+	 img {
+	  display: none;
+	}
+  }
+  
+  .page-title {
+	position: relative;
+	padding: 165px 0 65px;
+  }
+  
+  .page-title h3, .page-title li, .page-title {
+	color: black
+  }
+  
+  .page-title .title h3 {
+	font-weight: 900;
+	font-size: 50px;
+	text-transform: uppercase;
+  }
+  
+  .page-title  {
+	float: none;
+	display: inline-block;
+	text-transform: uppercase;
+  }
+  
+  .page-title  {
+	color: #fff;
+  }
+  
+  .page-title {
+	content: "\f105";
+	font-family: FontAwesome;
+	color: #fff;
+  }
+/* Team members */
+.speakers.white .speaker-item:hover {
+	box-shadow: 0px 0px 30px 0px rgba(11, 29, 66, 0.15);
+  }
+  
+  .section {
+	padding: 90px 0;
+  }
+  
+  .section-title.white h3, .section-title.white p {
+	color: orange;
+  }
+  
+  .speakers {
+	position: relative;
+  }
+  
+  .speakers.white .speaker-item {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+  }
+  
+  .speakers .speaker-item {
+	background: #eae9ec;
+	padding: 7px;
+	margin-bottom: 30px;
+  }
+  
+  .speakers .speaker-item .image {
+	margin-bottom: 16px;
+	position: relative;
+	overflow: hidden;
+  }
+  
+  @media (max-width: 480px) {
+	.speakers .speaker-item .image img {
+	  width: 100% !important;
+	}
+  }
+  
+  .speakers .speaker-item .image .primary-overlay {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #ff6600;
+	opacity: .85;
+	transition: .3s ease;
+  }
+  
+  .speakers .speaker-item .image .socials {
+	position: absolute;
+	top: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	width: 100%;
+	height: 100%;
+	transition: .4s ease;
+  }
+  
+  .speakers .speaker-item .image .socials ul {
+	width: 50%;
+  }
+  
+  @media (max-width: 1024px) {
+	.speakers .speaker-item .image .socials ul {
+	  width: 61%;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.speakers .speaker-item .image .socials ul {
+	  width: 31%;
+	}
+  }
+  
+  .speakers .speaker-item .image .socials ul li.list-inline-item:not(:last-child) {
+	margin-right: 7px;
+	margin-bottom: 10px;
+  }
+  
+  .speakers .speaker-item .image .socials ul li a {
+	display: inline;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid #fff;
+  }
+  
+  .speakers .speaker-item .image .socials ul li a i {
+	font-size: .9375rem;
+	color: #fff;
+	line-height: 50px;
+  }
+  
+  .speakers .speaker-item .image .socials ul li a:hover {
+	background: #fff;
+  }
+  
+  .speakers .speaker-item .image .socials ul li a:hover i {
+	color: #222222;
+  }
+  
+  .speakers .speaker-item .image:hover .primary-overlay {
+	top: 0;
+  }
+  
+  .speakers .speaker-item .image:hover .socials {
+	top: 0;
+  }
+  
+  .speakers .speaker-item .content h5 a {
+	font-size: 22px;
+	color: #222222;
+	font-weight: 400;
+	margin-bottom: 0;
+  }
+  
+  .speakers .speaker-item .content h5 a:hover {
+	color: #ff6600;
+  }
+  
+  .speakers .speaker-item .content p {
+	font-size: 0.875rem;
+	margin-bottom: 5px;
+  }
+  
