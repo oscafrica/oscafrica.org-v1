@@ -4452,4 +4452,15 @@ footer{
 	font-size: 0.875rem;
 	margin-bottom: 5px;
   }
-  
+  .fav {
+  display:-ms-flexbox;
+	display:flex;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap;
+	margin-right:-15px;
+	margin-left:-15px;
+  }
+
+  .everywhere{
+	  color: #24294C;
+  }
