@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://oscafrica.org/sitemap.xml
