@@ -4203,12 +4203,11 @@ h5.icard {
 	}
 
 .commonTab .nav-tabs .nav-item .nav-link.active {
-		border: 1px solid #333856;
 		background: #8079b5;
 		color: #fff;
 	}
 	.commonTab .nav-tabs .nav-item .nav-link {
-		background:		#cfc7e2;
+		background:	#cfc7e2;
 		color: #fff;
 		text-transform: capitalize;
 		border-radius: 0;
@@ -4281,12 +4280,6 @@ footer{
 /* Team page */
 .page-title {
 	text-align: center;
-  }
-
-  @media (max-width: 1024px) {
-	 img {
-	  display: none;
-	}
   }
   
   .page-title {
