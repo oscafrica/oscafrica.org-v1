@@ -4194,11 +4194,7 @@ h5.icard {
 	 border: 1px solid transparent;
 	 text-align: center;
  }
- .commonTab .nav-tabs {
-    border:1px solid transparent;
-	text-align: center;
- }
-    .commonTab  .nav-tabs .nav-item {
+ .commonTab  .nav-tabs .nav-item {
 	  margin:0 3px;
 	}
 
@@ -4207,8 +4203,7 @@ h5.icard {
 		color: #fff;
 	}
 	.commonTab .nav-tabs .nav-item .nav-link {
-		background:	#cfc7e2;
-		color: #fff;
+		color: #666;
 		text-transform: capitalize;
 		border-radius: 0;
 	}
