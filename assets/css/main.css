@@ -4392,13 +4392,14 @@ footer{
   }
   
   .speakers .speaker-item .image .socials ul li.list-inline-item:not(:last-child) {
-	margin-right: 7px;
+	margin-right: 10px;
 	margin-bottom: 10px;
+	margin-top: 5px;
   }
   
   .speakers .speaker-item .image .socials ul li a {
 	display: inline;
-	padding: 5px;
+	padding: 8px;
 	text-align: center;
 	border: 1px solid #fff;
   }
