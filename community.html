@@ -37,7 +37,7 @@
     <meta property="og:image" content="https://oscafrica.org/osca.png" />
 
     <!-- Google Knowledge Graph card -->
-    <script type='application/ld+json'> 
+    <script type='application/ld+json'>
             {
               "@context": "http://www.schema.org",
               "@type": "Organization",
@@ -45,7 +45,7 @@
               "url": "https://oscafrica.org/",
               "logo": "https://oscafrica.org/osca.png",
               "description": "A Community aimed at creating and supporting the open source movement in Africa"
-            } 
+            }
 		</script>
     <!-- Facebook card -->
     <meta property="fb:admins" content="100001738009099,100003017988002, 100005576285450" />
@@ -54,13 +54,59 @@
     <link rel="shortcut icon" type="image/x-icon" href="osca.png" />
     <!-- Favicon -->
     <meta name="google-site-verification" content="syKjnJ8wjjqZfM_F-EL-zhk18BX_TCp_bOpvc9TeYxc" />
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        .event-buttons{
+            background-color:#fff;
+            padding-top: 20px;
+            padding-left: 299px;
+
+            margin-right: 100px;
+            margin-left: 95px;
+            /* display: flex;
+            flex-direction: row-reverse;
+            align-content: space-between; */
+        }
+
+        .event-host{
+            padding-bottom: 60px;
+            background-color: #fff;
+
+        }
+        .google-image{
+         padding-left: 50px;
+         padding-right: 50px;
+         background-image: url('images/map4.jpg');
+        }
+    .google-map-container{
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        width: 100%;
+    }
+
+    .twitter-feed{
+      margin-left: auto;
+      margin-right: auto;
+       width: 50%;
+       padding-bottom: 30px;
+   }
+  
+
+   .twitter-div{
+       background-color: #fff;
+   }
+
+    </style>
 </head>
 
 
 <body id="body">
-    <!-- loader 
+    <!-- loader
 	<div id="OSCA">
-		<div class="OSCA"> 
+		<div class="OSCA">
 			<div class="OSCA--mask">
 				<div class="OSCA--mask-inner">#OSCA</div>
 			</div>
@@ -111,51 +157,33 @@
                 </ul>
             </nav>
         </div>
-        <!-- Banner -->
-        <section id="banner" class="major">
-            <div class="inner">
-                <header class="major">
-                    <h1 class="theme">OSCA Community Page</h1>
-                </header>
-                <div class="content">
-                    <p>A community aimed at creating and supporting
-                        <br>the open source movement within Africa</p>
-                    <ul class="actions">
-                        <li>
-                            <a href="#" class="button next scrolly">SEARCH</a>
-                        </li>
-                    </ul>
+         <!-- Dummy Google Map -->
+         <div class="twitter-div">
+                <div class="google-map-container google-image">
+            
                 </div>
-            </div>
-        </section>
 
-        <!-- Main -->
-        <div id="main">
+                <!-- Host Event Button -->
+                <div class="event-host">
+                        <h5 style="color: #2F354C; padding-top: 50px;font-size: 28px; line-height: 38px;">Want to host an Event?</h5>
+                        <h5 style="color: #2F354C; font-size: 18px;line-height: 25px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt beatae neque blanditiis provident magnam vitae facilis repudiandae aut quos, accusantium corrupti quis voluptates magni explicabo ducimus consequatur aperiam vel odit!</h5>
+                        <div class="event-buttons">
+                                <a href="#" style= "background-color: black; padding-right: 40px; margin-right: 80px; margin-left: 20px;" class="btn  btn-lg active" role="button" aria-pressed="true">Host an Event</a>
+                                <a href="#" style="background-color: white; color:black; padding-right: 40px; margin-right: 70px; border: 1px solid #2F354C"
+                                  class="btn  btn-lg active" role="button" aria-pressed="true">Become a Member</a>
+                        </div>
+               </div>
+               <!-- Actual Twitter Feed -->
+               <div class="twitter-feed">
+                  <div class="embedded-tweet">
+                    <a class="twitter-timeline" data-tweet-limit=4 href="https://twitter.com/oscafrica?ref_src=twsrc%5Etfw">Tweets by oscafrica</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  </div>
+                 
+                  
+               </div>
+           </div>
 
-            <!-- One -->
-            <section id="one" class="tiles">
-                <article>
-                    <span class="image">
-                        <img src="/images/pic01.jpg" alt="" />
-                    </span>
-                    <header class="major">
-                        <h3>
-                            <a href="#" class="link">OSCA</a>
-                        </h3>
-                    </header>
-                </article>
-                <article>
-                    <span class="image">
-                        <img src="images/pic02.jpg" alt="" />
-                    </span>
-                    <header class="major">
-                        <h3>
-                            <a href="#" class="link">Community</a>
-                        </h3>
-                        <p>feugiat amet tempus</p>
-                    </header>
-                </article>
-            </section>
+
 
 
             <!-- Footer -->
@@ -198,7 +226,7 @@
 
                         </ul>
                         <ul class="copyright">
-                            <li>&copy; OSCA 2018</li>
+                            <li>&copy; OSCA 2018</li> <li> HTML5 UP</li>
                         </ul>
                     </div>
                 </footer>
