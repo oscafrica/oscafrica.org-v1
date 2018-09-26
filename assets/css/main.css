@@ -3169,7 +3169,7 @@
 			height: 70%;
 			line-height: inherit;
 			padding: 0 1.5em;
-            margin-top: 6px;
+            margin-top: 4px;
             }
 
 
@@ -4457,3 +4457,68 @@ footer{
 	  color:#ffffff;
 	  margin-bottom:100px;
   }
+
+  .event-buttons{
+	background-color:#fff;
+	padding-top: 20px;
+	padding-left: 299px;
+
+	margin-right: 100px;
+	margin-left: 95px;
+	/* display: flex;
+	flex-direction: row-reverse;
+	align-content: space-between; */
+}
+
+.event-buttons{
+	background-color:#fff;
+	padding-top: 20px;
+	padding-left: 299px;
+
+	margin-right: 100px;
+	margin-left: 95px;
+	/* display: flex;
+	flex-direction: row-reverse;
+	align-content: space-between; */
+}
+
+.event-host{
+	padding-bottom: 60px;
+	background-color: #fff;
+
+}
+.google-image{
+ padding-left: 50px;
+ padding-right: 50px;
+ background-image: url('images/map4.jpg');
+}
+.google-map-container{
+height: 600px;
+margin-left: auto;
+margin-right: auto;
+background-color: #fff;
+width: 100%;
+}
+
+.twitter-feed{
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding-bottom: 30px;
+}
+
+
+.twitter-div{
+background-color: #fff;
+}
+.them {
+color: #2F354C;  
+padding-top: 50px; 
+font-size: 28px;
+line-height: 38px;
+}
+.set {
+color: #2F354C;  
+font-size: 18px;
+line-height: 25px;
+}
