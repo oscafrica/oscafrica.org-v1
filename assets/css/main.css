@@ -3167,7 +3167,10 @@
 			height: 70%;
 			line-height: inherit;
 			padding: 0 1.5em;
+<<<<<<< HEAD
             margin-top: 0px;
+=======
+>>>>>>> fa32ff3a85685035609da3cf0b1d5f1d58db1df2
             }
 
 			#header .logo strong {
@@ -4191,7 +4194,7 @@ h5.icard {
 	.commonTab .nav-tabs .nav-item .nav-link {
 		color: #666;
 		text-transform: capitalize;
-		border-radius: 0;
+		border-radius: 10px;
 	}
 
 	a, a:focus, a:hover {
@@ -4459,7 +4462,9 @@ footer{
 	background-color: #fff;
 
 }
+
 /* Map Div */
+
 .google-map-container{
 height: 600px;
 margin-left: auto;
@@ -4474,6 +4479,25 @@ margin-right: auto;
 width: 50%;
 padding-bottom: 30px;
 }
+
 .twitter-div{
 background-color: #fff;
+}
+.them {
+color: #2F354C;  
+padding-top: 50px; 
+font-size: 28px;
+line-height: 38px;
+}
+.set {
+color: #2F354C;  
+font-size: 18px;
+line-height: 25px;
+}
+.para {
+	
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	letter-spacing: 0.025em;
+	line-height: 1.65;
+	color: #ffffff
 }
