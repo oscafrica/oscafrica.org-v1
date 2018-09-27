@@ -4204,7 +4204,7 @@ h5.icard {
 	.commonTab .nav-tabs .nav-item .nav-link {
 		color: #666;
 		text-transform: capitalize;
-		border-radius: 0;
+		border-radius: 8px;
 	}
 
 	a, a:focus, a:hover {
