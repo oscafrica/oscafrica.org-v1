@@ -10,7 +10,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, u, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1851,7 +1850,6 @@
 				width: 100%;
 			}
 
-
 		header.major > p {
 			font-size: 0.7em;
 			font-weight: 600;
@@ -3169,12 +3167,8 @@
 			height: 70%;
 			line-height: inherit;
 			padding: 0 1.5em;
+            margin-top: 0px;
             }
-
-
-
-
-
 
 			#header .logo strong {
 				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -3774,7 +3768,6 @@
 				padding-left: 0;
 			}
 
-
 	@media screen and (max-width: 480px) {
 
 		#footer .copyright li {
@@ -4028,7 +4021,6 @@
 	box-sizing: border-box;
   }
 
-  
   #OSCA {
 	justify-content: center;
 	align-items: center;
@@ -4139,8 +4131,6 @@ h1{
 	line-height: 1.2;
 	margin-top: 0;
 	
-
-
 }
 span.border {
 	border: 1px solid #e9ecef00!important;
@@ -4162,8 +4152,6 @@ span.border {
 	 font-family: 'Open Sans', sans-serif;
  }
 
-
-
 /*about us */
 
  .section {
@@ -4171,7 +4159,6 @@ span.border {
 	 background-color: #fff;
  }
 
- 
  h1.def {
 	margin-bottom: .5rem;
     font-family: 'Ubuntu', sans-serif;
@@ -4456,29 +4443,15 @@ footer{
 	  color:#ffffff;
 	  margin-bottom:100px;
   }
-
+  /* Call to Action Buttons*/
   .event-buttons{
 	background-color:#fff;
-	padding-top: 20px;
-	padding-left: 299px;
-
-	margin-right: 100px;
-	margin-left: 95px;
-	/* display: flex;
-	flex-direction: row-reverse;
-	align-content: space-between; */
-}
-
-.event-buttons{
-	background-color:#fff;
-	padding-top: 20px;
-	padding-left: 299px;
-
-	margin-right: 100px;
-	margin-left: 95px;
-	/* display: flex;
-	flex-direction: row-reverse;
-	align-content: space-between; */
+	flex-direction: row;
+	padding-left: 457px;
+	margin-left: auto;
+	display: flex;
+	align-content: center;
+	margin-right: auto;
 }
 
 .event-host{
@@ -4486,11 +4459,9 @@ footer{
 	background-color: #fff;
 
 }
-.google-image{
- padding-left: 50px;
- padding-right: 50px;
- background-image: url('images/map4.jpg');
-}
+
+/* Map Div */
+
 .google-map-container{
 height: 600px;
 margin-left: auto;
@@ -4498,14 +4469,13 @@ margin-right: auto;
 background-color: #fff;
 width: 100%;
 }
-
+/* Twitter Feed */
 .twitter-feed{
 margin-left: auto;
 margin-right: auto;
 width: 50%;
 padding-bottom: 30px;
 }
-
 
 .twitter-div{
 background-color: #fff;
