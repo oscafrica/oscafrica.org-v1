@@ -15,7 +15,7 @@ To ensure a sane and healthy environment for all maintainers, contributors, revi
 ## How to Contribute:
 We appreciate your efforts to help make a contribution to our project, This project is currently built with HTML5, CSS3, Javascript. To get started here's a quick guide:
 
-1. You have to be a member of the O.S.C.A community, Join [here](www.oscafrica.org) 
+1. You have to be a member of the O.S.C.A community, Join [here](https://oscafrica.org) 
 2.  We use the pull-request model, see [GitHub's help on pull-request](https://help.github.com/articles/using-pull-requests).
 
 In simpler steps:
