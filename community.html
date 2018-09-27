@@ -54,44 +54,6 @@
     <meta name="google-site-verification" content="syKjnJ8wjjqZfM_F-EL-zhk18BX_TCp_bOpvc9TeYxc" />
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
-    <style>
-        .event-buttons{
-            background-color:#fff;
-            flex-direction: row;
-            padding-left: 457px;
-            margin-left: auto;
-            display: flex;
-            align-content: center;
-            margin-right: auto;
-        }
-
-        .event-host{
-            padding-bottom: 60px;
-            background-color: #fff;
-
-        }
-        .google-image{
-         background-image: url('images/map4.jpg');
-        }
-    .google-map-container{
-        height: 600px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #fff;
-        width: 100%;
-    }
-
-    .twitter-feed{
-      margin-left: auto;
-      margin-right: auto;
-       width: 50%;
-       padding-bottom: 30px;
-   }
-   .twitter-div{
-       background-color: #fff;
-   }
-
-    </style>
 </head>
 <body id="body">
     <!-- loader
@@ -105,16 +67,10 @@
 -->
     <!-- Wrapper -->
     <div id="wrapper">
-        <div id="load">
-           <!-- Header -->
+        <!-- Header -->
 		<header id="header" class="alt">
-			<a  href="index.html">
-				<img  style="
-                display: inline-block;
-                font-size: 0.2em;
-                height: 50%;
-                padding: 0 1.5em;
-                " src="osca1.png">
+			<a class="logo" href="/">
+				<img class="logo" src="osca1.png" href="index.html">
 			</a>
 			<!--	<a href="index.html" class="logo"><strong>Open Source Community</strong> <span>.Africa</span></a> -->
 			<nav>
@@ -122,41 +78,34 @@
 			</nav>
 		</header>
 
-            <!-- Menu -->
-            <nav id="menu">
-                <img class="menu-image" src="osca.png">
-                <ul class="links">
-                    <li>
-                        <a href="/">Home</a>
-                    </li>
-                    <li>
-                        <a href="about-us.html">About US</a>
-                    </li>
-            <!--        <li>
-                        <a href="team.html">Our Team</a>
-                    </li> -->
-                    <li>
-                        <a href="community-page.html">Community Page</a>
-                    </li>
-                    <li>
-                        <a href="#" class="button default">Host an Event</a>
-                    </li>
-                    <!--		<li><a href="elements.html">Element</a></li> -->
-                </ul>
-                <ul class="actions vertical">
-                    <li>
-                        <a href="https://oscafrica.zulipchat.com" class="button special fit">Join US</a>
-                    </li>
-                    <!--	<li><a href="#" class="button fit">Log In</a></li> -->
-                </ul>
-            </nav>
-        </div>
+		<!-- Menu -->
+        <nav id="menu">
+            <img class="menu-image" src="osca.png">
+            <ul class="links">
+                <li><a href="/">Home</a></li>
+                <li><a href="about-us.html">About US</a></li>
+        <!--	<li><a href="team.html">Our Team</a></li> -->
+                <li><a href="community.html">Community</a></li>
+                <li><a href="#" class="button default">Host an Event</a></li>
+    <!--		<li><a href="elements.html">Element</a></li> -->
+            </ul>
+            <ul class="actions vertical">
+                <li><a href="https://oscafrica.zulipchat.com" class="button special fit">Join US</a></li>
+            <!--	<li><a href="#" class="button fit">Log In</a></li> -->
+            </ul>
+        </nav>
+    
+        
          <!-- Dummy Google Map -->
          <div class="twitter-div">
-                <div class="google-map-container google-image">
-            
+             <!-- Div Container for the Map -->
+                <div class="google-map-container">
+                     <!-- Code for Google My Map Api  -->
+                        <div style="height:100%; width:100%; display:inline-block; overflow:hidden;">
+                                <iframe class="custom-google-map" style="position:relative; top:-50px; border:none;" src="https://www.google.com/maps/d/embed?mid=1pXgHi5r2ViCBufBTDKcpYTsM7EmvZ4ga&hl=en"width="100%" height="100%"></iframe>
+                                </div>  
                 </div>
-
+               
                 <!-- Host Event Button -->
                 <div class="event-host">
                         <h5 style="color: #2F354C; padding-top: 50px;font-size: 28px; line-height: 38px;">Want to host an Event?</h5>
@@ -202,7 +151,8 @@
 
 							</ul>
 							<ul class="copyright">
-								<li>&copy; OSCA 2018</li>
+                                <li>&copy; OSCA 2018</li>
+                                <li> HTML5 UP</li>
 							</ul>                           
 						</div>
 					</footer>       

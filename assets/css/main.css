@@ -3167,7 +3167,7 @@
 			height: 70%;
 			line-height: inherit;
 			padding: 0 1.5em;
-            margin-top: 6px;
+            margin-top: 0px;
             }
 
 			#header .logo strong {
@@ -4443,3 +4443,37 @@ footer{
 	  color:#ffffff;
 	  margin-bottom:100px;
   }
+  /* Call to Action Buttons*/
+  .event-buttons{
+	background-color:#fff;
+	flex-direction: row;
+	padding-left: 457px;
+	margin-left: auto;
+	display: flex;
+	align-content: center;
+	margin-right: auto;
+}
+
+.event-host{
+	padding-bottom: 60px;
+	background-color: #fff;
+
+}
+/* Map Div */
+.google-map-container{
+height: 600px;
+margin-left: auto;
+margin-right: auto;
+background-color: #fff;
+width: 100%;
+}
+/* Twitter Feed */
+.twitter-feed{
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding-bottom: 30px;
+}
+.twitter-div{
+background-color: #fff;
+}
