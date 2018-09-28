@@ -10,7 +10,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, u, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1851,7 +1850,6 @@
 				width: 100%;
 			}
 
-
 		header.major > p {
 			font-size: 0.7em;
 			font-weight: 600;
@@ -1958,7 +1956,7 @@
 		appearance: none;
 		background: rgba(212, 212, 255, 0.035);
 		border: none;
-		border-radius: 0;
+		border-radius: 20px;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2542,7 +2540,7 @@
 		transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
 		border: 0;
-		border-radius: 0;
+		border-radius: 15px;
 		box-shadow: inset 0 0 0 2px #ffffff;
 		color: #ffffff;
 		cursor: pointer;
@@ -3154,7 +3152,7 @@
 		left: 0;
 		letter-spacing: 0.25em;
 		line-height: 3.25em;
-		margin: 0;
+		margin-top: 0px;
 		position: fixed;
 		text-transform: uppercase;
 		top: 0;
@@ -3169,13 +3167,8 @@
 			height: 70%;
 			line-height: inherit;
 			padding: 0 1.5em;
-            margin-top: 6px;
+            margin-top: 0px;
             }
-
-
-
-
-
 
 			#header .logo strong {
 				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -3762,7 +3755,7 @@
 
 		#footer .copyright li {
 			border-left: solid 1px rgba(212, 212, 255, 0.1);
-			color: rgba(244, 244, 255, 0.2);
+			color: rgba(212, 212, 255, 0.178);
 			display: inline-block;
 			line-height: 1;
 			margin-left: 1em;
@@ -3774,7 +3767,6 @@
 				margin-left: 0;
 				padding-left: 0;
 			}
-
 
 	@media screen and (max-width: 480px) {
 
@@ -4029,7 +4021,6 @@
 	box-sizing: border-box;
   }
 
-  
   #OSCA {
 	justify-content: center;
 	align-items: center;
@@ -4140,8 +4131,6 @@ h1{
 	line-height: 1.2;
 	margin-top: 0;
 	
-
-
 }
 span.border {
 	border: 1px solid #e9ecef00!important;
@@ -4163,8 +4152,6 @@ span.border {
 	 font-family: 'Open Sans', sans-serif;
  }
 
-
-
 /*about us */
 
  .section {
@@ -4172,7 +4159,6 @@ span.border {
 	 background-color: #fff;
  }
 
- 
  h1.def {
 	margin-bottom: .5rem;
     font-family: 'Ubuntu', sans-serif;
@@ -4194,24 +4180,18 @@ h5.icard {
 	 border: 1px solid transparent;
 	 text-align: center;
  }
- .commonTab .nav-tabs {
-    border:1px solid transparent;
-	text-align: center;
- }
-    .commonTab  .nav-tabs .nav-item {
+ .commonTab  .nav-tabs .nav-item {
 	  margin:0 3px;
 	}
 
 .commonTab .nav-tabs .nav-item .nav-link.active {
-		border: 1px solid #333856;
 		background: #8079b5;
 		color: #fff;
 	}
 	.commonTab .nav-tabs .nav-item .nav-link {
-		background:		#cfc7e2;
-		color: #fff;
+		color: #666;
 		text-transform: capitalize;
-		border-radius: 0;
+		border-radius: 10px;
 	}
 
 	a, a:focus, a:hover {
@@ -4281,12 +4261,6 @@ footer{
 /* Team page */
 .page-title {
 	text-align: center;
-  }
-
-  @media (max-width: 1024px) {
-	 img {
-	  display: none;
-	}
   }
   
   .page-title {
@@ -4404,13 +4378,14 @@ footer{
   }
   
   .speakers .speaker-item .image .socials ul li.list-inline-item:not(:last-child) {
-	margin-right: 7px;
+	margin-right: 10px;
 	margin-bottom: 10px;
+	margin-top: 5px;
   }
   
   .speakers .speaker-item .image .socials ul li a {
 	display: inline;
-	padding: 5px;
+	padding: 8px;
 	text-align: center;
 	border: 1px solid #fff;
   }
@@ -4464,3 +4439,62 @@ footer{
   .everywhere{
 	  color: #24294C;
   }
+  .outro{
+	  color:#ffffff;
+	  margin-bottom:100px;
+  }
+  /* Call to Action Buttons*/
+  .event-buttons{
+	background-color:#fff;
+	flex-direction: row;
+	padding-left: 457px;
+	margin-left: auto;
+	display: flex;
+	align-content: center;
+	margin-right: auto;
+}
+
+.event-host{
+	padding-bottom: 60px;
+	background-color: #fff;
+
+}
+
+/* Map Div */
+
+.google-map-container{
+height: 600px;
+margin-left: auto;
+margin-right: auto;
+background-color: #fff;
+width: 100%;
+}
+/* Twitter Feed */
+.twitter-feed{
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding-bottom: 30px;
+}
+
+.twitter-div{
+background-color: #fff;
+}
+.them {
+color: #2F354C;  
+padding-top: 50px; 
+font-size: 28px;
+line-height: 38px;
+}
+.set {
+color: #2F354C;  
+font-size: 18px;
+line-height: 25px;
+}
+.para {
+	
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	letter-spacing: 0.025em;
+	line-height: 1.65;
+	color: #ffffff
+}
