@@ -3924,7 +3924,6 @@ footer {
     border: 1px;
     border-radius: 15px;
     color: #FFFFFF;
-	cursor: pointer;
 	margin-right: 40px;
     font-size: 0.7em;
     font-weight: normal;
@@ -3933,16 +3932,26 @@ footer {
 	padding-right: 80px;
 	text-align: center;
 }
+.link-btn1:hover {
+	background-color: transparent;
+	border: 3px solid #24294C;
+	color: #24294C;
+	text-decoration: none;
+}
 .link-btn2 {
     background: transparent;
-    border: 2px solid #24294C;
+    border: 3px solid #24294C;
     border-radius: 15px;
     color: #24294C;
-	cursor: pointer;
     font-size: 0.7em;
     font-weight: normal;
 	padding: 18px 60px;
 	text-align: center;
+}
+.link-btn2:hover {
+	background-color: #24294C;
+	text-decoration: none;
+
 }
 .link-btn3 {
     background:transparent;
@@ -3957,6 +3966,10 @@ footer {
 	padding-left: 70px;
 	padding-right: 70px;
 	text-align: center;
+}
+.link-btn3:hover {
+	background-color: #24294C;
+	text-decoration: none;
 }
 
 .event-host {
