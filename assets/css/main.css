@@ -3925,10 +3925,13 @@ footer {
     border-radius: 15px;
     color: #FFFFFF;
 	cursor: pointer;
-	margin-right: 30px;
+	margin-right: 40px;
     font-size: 0.7em;
     font-weight: normal;
-	padding: 18px 60px;
+	padding: 18px 65px;
+	padding-left: 80px;
+	padding-right: 80px;
+	text-align: center;
 }
 .link-btn2 {
     background: transparent;
@@ -3938,7 +3941,22 @@ footer {
 	cursor: pointer;
     font-size: 0.7em;
     font-weight: normal;
-    padding: 18px 60px;
+	padding: 18px 60px;
+	text-align: center;
+}
+.link-btn3 {
+    background:transparent;
+    border: 2px solid #3b94d9;
+    border-radius: 20px;
+    color: #3b94d9;
+	cursor: pointer;
+	margin-right: 30px;
+    font-size: 0.7em;
+    font-weight: normal;
+	padding: 18px 60px;
+	padding-left: 70px;
+	padding-right: 70px;
+	text-align: center;
 }
 
 .event-host {
