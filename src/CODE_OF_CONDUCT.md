@@ -1,6 +1,6 @@
 # Open Source Community Africa - Code of Conduct
 
-When you become a chapter lead or member, you’re joining our diverse community which supports all spheres of technology. And like every growing community, we practice a few ground rules about expected behavior from everyone. These guidelines cover both online (e.g. mailing lists, social channels) and offline (e.g. in-person meetups) behavior.
+When you become a chapter lead, member and contributor, you’re joining our diverse community which supports all spheres of technology. And like every growing community, we practice a few ground rules about expected behavior from everyone. These guidelines cover both online (e.g. mailing lists, social channels) and offline (e.g. in-person meetups) behavior.
 Violations of this code of conduct can result:
 * If at a meetup, to leave the meetup and its premises.
 * Temporarily banned from the OSCA chatroom and/or O.S.C.A organization on github.
