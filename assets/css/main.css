@@ -3921,7 +3921,7 @@ footer {
 }
 .link-btn1 {
     background: #24294C;
-    border: 1px;
+    border: 2px;
     border-radius: 15px;
     color: #FFFFFF;
 	margin-right: 40px;
@@ -3934,13 +3934,13 @@ footer {
 }
 .link-btn1:hover {
 	background-color: transparent;
-	border: 3px solid #24294C;
+	border: 2px solid #24294C;
 	color: #24294C;
 	text-decoration: none;
 }
 .link-btn2 {
     background: transparent;
-    border: 3px solid #24294C;
+    border: 2px solid #24294C;
     border-radius: 15px;
     color: #24294C;
     font-size: 0.7em;
@@ -3968,6 +3968,60 @@ footer {
 .link-btn3:hover {
 	background-color: #24294C;
 	text-decoration: none;
+}
+
+/*RESPONSIVE BUTTONS FOR MOBILE*/
+
+
+/*EXTRA SMALL DEVICES*/
+@media only screen and (max-width: 900px) {
+	.link-btn1 {
+		background: #24294C;
+		border: 1px;
+		border-radius: 15px;
+		color: #FFFFFF;
+		margin-left: 0px;
+		margin-right: 5px;
+		font-size: 0.7em;
+		font-weight: normal;
+		padding: 15px 35px;
+		text-align: center;
+	}
+	.link-btn1:hover {
+		background-color: transparent;
+		border: 2px solid #24294C;
+		color: #24294C;
+		text-decoration: none;
+	}
+	.link-btn2 {
+		background: transparent;
+		border: 2px solid #24294C;
+		border-radius: 15px;
+		color: #24294C;
+		font-size: 0.7em;
+		font-weight: normal;
+		padding: 15px 10px;
+		text-align: center;
+	}
+	.link-btn2:hover {
+		background-color: #24294C;
+		text-decoration: none;
+	}	
+	.link-btn3 {
+		background:transparent;
+		border: 2px solid #3b94d9;
+		border-radius: 20px;
+		color: #3b94d9;
+		margin-left: -10px;
+		margin-right: 10px;
+		font-size: 0.7em;
+		padding: 15px 6px;
+		text-align: center;
+	}
+	.link-btn3:hover {
+		background-color: #24294C;
+		text-decoration: none;
+	}	
 }
 
 .event-host {
