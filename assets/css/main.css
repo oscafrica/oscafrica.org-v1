@@ -3970,7 +3970,49 @@ footer {
 	text-decoration: none;
 }
 
+
+/* button fixes by nedy sunday 21:14 */
+.custom-btn{
+	border-radius: 15px!important;
+	font-size: 0.7em;
+	font-weight: normal;
+	width: 300px;
+}
+.blue-btn{
+	background: #24294C;
+}
+.white-btn{
+	background: #FFFFFF;
+	border: 2px solid #24294C!important;
+	color: #24294C;
+}
+
+/* hover effects */
+.blue-btn:hover{
+	background: #FFFFFF;
+	color: #24294C!important;
+	border: 2px solid #24294C!important;
+}
+
+.white-btn:hover{
+	background: #24294C;
+	border: 2px solid #FFFFFF!important;
+	color: #FFFFFF!important;
+}
+/* Responsive fixes */
+@media only screen and (max-width: 374px) {
+	.custom-btn{
+		border-radius: 15px!important;
+		font-size: 0.7em;
+		font-weight: normal;
+		width: 250px;
+	}
+}
+/* button fixes end here */
+
+
 /*RESPONSIVE BUTTONS FOR MOBILE*/
+
 
 
 /*EXTRA SMALL DEVICES*/
@@ -4006,7 +4048,7 @@ footer {
 	.link-btn2:hover {
 		background-color: #24294C;
 		text-decoration: none;
-	}	
+	}
 	.link-btn3 {
 		background:transparent;
 		border: 2px solid #3b94d9;
@@ -4021,7 +4063,7 @@ footer {
 	.link-btn3:hover {
 		background-color: #24294C;
 		text-decoration: none;
-	}	
+	}
 }
 
 .event-host {
