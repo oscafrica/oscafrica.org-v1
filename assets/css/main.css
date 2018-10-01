@@ -3197,11 +3197,11 @@ body.is-loading #banner>.inner {
 
 @media screen and (max-width: 480px) {
 	#footer .copyright li {
-		display: block;
+		/* display: block;
 		border-left: 0;
 		margin-left: 0;
 		padding-left: 0;
-		line-height: inherit;
+		line-height: inherit; */
 	}
 }
 
@@ -3894,9 +3894,9 @@ footer {
 }
 
 .section {
-	padding-top: 80px;
-	padding-bottom: 80px;
-	margin-bottom: 60px;
+	/* padding-top: 80px; */
+	/* padding-bottom: 80px; */
+	/* margin-bottom: 60px; */
 }
 
 .section h2 {
@@ -3983,10 +3983,22 @@ footer {
 }
 .white-btn{
 	background: #FFFFFF;
-	border: 2px solid #24294C!important;
+}
+.text-deep-blue{
 	color: #24294C;
 }
-
+.text-blue{
+	color: #3b94d9;
+}
+.deep-blue-border{
+	border: 2px solid #24294C!important;
+}
+.blue-border{
+	border: 2px solid #3b94d9!important;
+}
+.w-50-alt{
+	width: 50%;
+}
 /* hover effects */
 .blue-btn:hover{
 	background: #FFFFFF;
@@ -3994,8 +4006,13 @@ footer {
 	border: 2px solid #24294C!important;
 }
 
-.white-btn:hover{
+.deep-blue-border:hover{
 	background: #24294C;
+	border: 2px solid #FFFFFF!important;
+	color: #FFFFFF!important;
+}
+.blue-border:hover{
+	background: #3b94d9;
 	border: 2px solid #FFFFFF!important;
 	color: #FFFFFF!important;
 }
@@ -4006,6 +4023,21 @@ footer {
 		font-size: 0.7em;
 		font-weight: normal;
 		width: 250px;
+	}
+	.w-50-alt{
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 767px) {
+
+	.w-50-alt{
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 1000px) {
+
+	.w-50-alt{
+		width: 75%;
 	}
 }
 /* button fixes end here */
@@ -4080,10 +4112,12 @@ footer {
 }
 
 .twitter-feed {
-	margin-left: auto;
+	/* margin-left: auto;
 	margin-right: auto;
-	width: 50%;
-	padding-bottom: 30px;
+	padding-bottom: 30px; */
+	/* width: 50%; */
+	display: flex;
+	justify-content: center;
 }
 
 .twitter-div {
