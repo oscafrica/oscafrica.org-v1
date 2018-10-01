@@ -3894,9 +3894,9 @@ footer {
 }
 
 .section {
-	padding-top: 80px;
-	padding-bottom: 80px;
-	margin-bottom: 60px;
+	/* padding-top: 80px; */
+	/* padding-bottom: 80px; */
+	/* margin-bottom: 60px; */
 }
 
 .section h2 {
@@ -3986,7 +3986,9 @@ footer {
 	border: 2px solid #24294C!important;
 	color: #24294C;
 }
-
+.w-50-alt{
+	width: 50%;
+}
 /* hover effects */
 .blue-btn:hover{
 	background: #FFFFFF;
@@ -4006,6 +4008,21 @@ footer {
 		font-size: 0.7em;
 		font-weight: normal;
 		width: 250px;
+	}
+	.w-50-alt{
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 767px) {
+
+	.w-50-alt{
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 1000px) {
+
+	.w-50-alt{
+		width: 75%;
 	}
 }
 /* button fixes end here */
@@ -4080,10 +4097,12 @@ footer {
 }
 
 .twitter-feed {
-	margin-left: auto;
+	/* margin-left: auto;
 	margin-right: auto;
-	width: 50%;
-	padding-bottom: 30px;
+	padding-bottom: 30px; */
+	/* width: 50%; */
+	display: flex;
+	justify-content: center;
 }
 
 .twitter-div {
