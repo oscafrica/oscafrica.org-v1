@@ -3197,11 +3197,11 @@ body.is-loading #banner>.inner {
 
 @media screen and (max-width: 480px) {
 	#footer .copyright li {
-		display: block;
+		/* display: block;
 		border-left: 0;
 		margin-left: 0;
 		padding-left: 0;
-		line-height: inherit;
+		line-height: inherit; */
 	}
 }
 
@@ -3983,8 +3983,18 @@ footer {
 }
 .white-btn{
 	background: #FFFFFF;
-	border: 2px solid #24294C!important;
+}
+.text-deep-blue{
 	color: #24294C;
+}
+.text-blue{
+	color: #3b94d9;
+}
+.deep-blue-border{
+	border: 2px solid #24294C!important;
+}
+.blue-border{
+	border: 2px solid #3b94d9!important;
 }
 .w-50-alt{
 	width: 50%;
@@ -3996,8 +4006,13 @@ footer {
 	border: 2px solid #24294C!important;
 }
 
-.white-btn:hover{
+.deep-blue-border:hover{
 	background: #24294C;
+	border: 2px solid #FFFFFF!important;
+	color: #FFFFFF!important;
+}
+.blue-border:hover{
+	background: #3b94d9;
 	border: 2px solid #FFFFFF!important;
 	color: #FFFFFF!important;
 }
