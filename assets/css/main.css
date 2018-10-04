@@ -3197,11 +3197,11 @@ body.is-loading #banner>.inner {
 
 @media screen and (max-width: 480px) {
 	#footer .copyright li {
-		display: block;
+		/* display: block;
 		border-left: 0;
 		margin-left: 0;
 		padding-left: 0;
-		line-height: inherit;
+		line-height: inherit; */
 	}
 }
 
@@ -3894,9 +3894,9 @@ footer {
 }
 
 .section {
-	padding-top: 80px;
-	padding-bottom: 80px;
-	margin-bottom: 60px;
+	/* padding-top: 80px; */
+	/* padding-bottom: 80px; */
+	/* margin-bottom: 60px; */
 }
 
 .section h2 {
@@ -3970,7 +3970,81 @@ footer {
 	text-decoration: none;
 }
 
+
+/* button fixes by nedy sunday 21:14 */
+.custom-btn{
+	border-radius: 15px!important;
+	font-size: 0.7em;
+	font-weight: normal;
+	width: 300px;
+}
+.blue-btn{
+	background: #24294C;
+}
+.white-btn{
+	background: #FFFFFF;
+}
+.text-deep-blue{
+	color: #24294C;
+}
+.text-blue{
+	color: #3b94d9;
+}
+.deep-blue-border{
+	border: 2px solid #24294C!important;
+}
+.blue-border{
+	border: 2px solid #3b94d9!important;
+}
+.w-50-alt{
+	width: 50%;
+}
+/* hover effects */
+.blue-btn:hover{
+	background: #FFFFFF;
+	color: #24294C!important;
+	border: 2px solid #24294C!important;
+}
+
+.deep-blue-border:hover{
+	background: #24294C;
+	border: 2px solid #FFFFFF!important;
+	color: #FFFFFF!important;
+}
+.blue-border:hover{
+	background: #3b94d9;
+	border: 2px solid #FFFFFF!important;
+	color: #FFFFFF!important;
+}
+/* Responsive fixes */
+@media only screen and (max-width: 374px) {
+	.custom-btn{
+		border-radius: 15px!important;
+		font-size: 0.7em;
+		font-weight: normal;
+		width: 250px;
+	}
+	.w-50-alt{
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 767px) {
+
+	.w-50-alt{
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 1000px) {
+
+	.w-50-alt{
+		width: 75%;
+	}
+}
+/* button fixes end here */
+
+
 /*RESPONSIVE BUTTONS FOR MOBILE*/
+
 
 
 /*EXTRA SMALL DEVICES*/
@@ -4006,7 +4080,7 @@ footer {
 	.link-btn2:hover {
 		background-color: #24294C;
 		text-decoration: none;
-	}	
+	}
 	.link-btn3 {
 		background:transparent;
 		border: 2px solid #3b94d9;
@@ -4021,7 +4095,7 @@ footer {
 	.link-btn3:hover {
 		background-color: #24294C;
 		text-decoration: none;
-	}	
+	}
 }
 
 .event-host {
@@ -4038,10 +4112,12 @@ footer {
 }
 
 .twitter-feed {
-	margin-left: auto;
+	/* margin-left: auto;
 	margin-right: auto;
-	width: 50%;
-	padding-bottom: 30px;
+	padding-bottom: 30px; */
+	/* width: 50%; */
+	display: flex;
+	justify-content: center;
 }
 
 .twitter-div {
