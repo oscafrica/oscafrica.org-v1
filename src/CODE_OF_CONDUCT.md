@@ -21,7 +21,8 @@ Always make use of your best judgement, and if you’d like more clarity or have
 
 * Patience: You would be working with a lot of people who are unique in their own way, patience is a virtue that would go a long way for comfort.
 
-* Licensing: PLease adhere to licensing rules on any open source porject you get to work on under O.S.C.A. When writing an article for the OSCA blog page, do not advertise proprietary softwares or any product that is not open sourced.
+* Licensing: PLease adhere to licensing rules on any open source project you get to work on under O.S.C.A. <br>
+When writing an article for the OSCA blog page, do not advertise proprietary softwares or any product that is not open sourced.
 
 * Collaboration: "The best teamwork comes from men who are working independently toward one goal in unison." – James Cash Penney. You are not generally expected to complete tasks alone, reach out and get other team members involved.
 
