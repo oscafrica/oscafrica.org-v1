@@ -2636,6 +2636,17 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	height: 70%;
 	line-height: inherit;
 	padding: 0 1.5em;
+	margin-top: -2px;
+}
+#header .logox {
+	border: 0;
+	display: inline-block;
+	font-size: 0.8em;
+	height: 70%;
+	line-height: inherit;
+	padding: 0 1.5em;
+	margin-top: 6px;
+
 }
 
 #header .logo strong {
