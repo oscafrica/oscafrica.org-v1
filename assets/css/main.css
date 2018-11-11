@@ -1,8 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:500');
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 /*@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
@@ -1294,9 +1291,9 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 body, input, select, textarea {
 	color: #ffffff;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
-	font-size: 17pt;
-	font-weight: 300;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20pt;
+	font-weight: 500;
 	letter-spacing: 0.025em;
 	line-height: 1.65;
 }
@@ -1420,7 +1417,7 @@ blockquote {
 
 code {
 	background: rgba(212, 212, 255, 0.035);
-	font-family: "Courier New", monospace;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 0.9em;
 	margin: 0 0.25em;
 	padding: 0.25em 0.65em;
@@ -1428,7 +1425,7 @@ code {
 
 pre {
 	-webkit-overflow-scrolling: touch;
-	font-family: "Courier New", monospace;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 0.9em;
 	margin: 0 0 2em 0;
 }
@@ -3448,7 +3445,7 @@ body.is-menu-visible #menu .inner {
 	justify-content: center;
 	align-items: center;
 	background: #24294C;
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	height: 100%;
 	opacity: 1;
 	filter: alpha(opacity=100);
@@ -3559,7 +3556,7 @@ h1 {
 	color: #fff;
 	margin-bottom: 8px;
 	font-weight: 700;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	line-height: 1.2;
 	margin-top: 0;
 }
@@ -3582,7 +3579,7 @@ h5 {
 	width: 75%;
 	margin: 0 auto;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 }
 
 /*about us */
@@ -3594,7 +3591,7 @@ h5 {
 
 h1.def {
 	margin-bottom: .5rem;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-weight: 300;
 	line-height: 1.2;
 	color: inherit;
@@ -3648,7 +3645,7 @@ a {
 }
 
 h2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-weight: 600;
 	text-align: left;
 }
@@ -3662,7 +3659,7 @@ h2 {
 }
 
 h5.icard {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 1rem;
 }
 
@@ -3905,7 +3902,6 @@ footer {
 }
 
 .section p {
-	
 	font-weight: 500;
 }
 
@@ -3919,135 +3915,151 @@ footer {
 	font-weight: 500;
 	text-align: center;
 }
+
 .link-btn1 {
-    background: #24294C;
-    border: 2px;
-    border-radius: 15px;
-    color: #FFFFFF;
+	background: #24294C;
+	border: 2px;
+	border-radius: 15px;
+	color: #FFFFFF;
 	margin-right: 40px;
-    font-size: 0.7em;
-    font-weight: normal;
+	font-size: 0.7em;
+	font-weight: normal;
 	padding: 18px 65px;
 	padding-left: 80px;
 	padding-right: 80px;
 	text-align: center;
 }
+
 .link-btn1:hover {
 	background-color: transparent;
 	border: 2px solid #24294C;
 	color: #24294C;
 	text-decoration: none;
 }
+
 .link-btn2 {
-    background: transparent;
-    border: 2px solid #24294C;
-    border-radius: 15px;
-    color: #24294C;
-    font-size: 0.7em;
-    font-weight: normal;
+	background: transparent;
+	border: 2px solid #24294C;
+	border-radius: 15px;
+	color: #24294C;
+	font-size: 0.7em;
+	font-weight: normal;
 	padding: 18px 60px;
 	text-align: center;
 }
+
 .link-btn2:hover {
 	background-color: #24294C;
 	text-decoration: none;
-
 }
+
 .link-btn3 {
-    background:transparent;
-    border: 2px solid #3b94d9;
-    border-radius: 20px;
-    color: #3b94d9;
+	background: transparent;
+	border: 2px solid #3b94d9;
+	border-radius: 20px;
+	color: #3b94d9;
 	margin-right: 30px;
-    font-size: 0.7em;
+	font-size: 0.7em;
 	padding: 18px 60px;
 	padding-left: 70px;
 	padding-right: 70px;
 	text-align: center;
 }
+
 .link-btn3:hover {
 	background-color: #24294C;
 	text-decoration: none;
 }
 
-
 /* button fixes by nedy sunday 21:14 */
-.custom-btn{
+
+.custom-btn {
 	border-radius: 15px!important;
 	font-size: 0.7em;
 	font-weight: normal;
 	width: 300px;
 }
-.blue-btn{
+
+.blue-btn {
 	background: #24294C;
 }
-.white-btn{
+
+.white-btn {
 	background: #FFFFFF;
 }
-.text-deep-blue{
+
+.text-deep-blue {
 	color: #24294C;
 }
-.text-blue{
+
+.text-blue {
 	color: #3b94d9;
 }
-.deep-blue-border{
+
+.deep-blue-border {
 	border: 2px solid #24294C!important;
 }
-.blue-border{
+
+.blue-border {
 	border: 2px solid #3b94d9!important;
 }
-.w-50-alt{
+
+.w-50-alt {
 	width: 50%;
 }
+
 /* hover effects */
-.blue-btn:hover{
+
+.blue-btn:hover {
 	background: #FFFFFF;
 	color: #24294C!important;
 	border: 2px solid #24294C!important;
 }
 
-.deep-blue-border:hover{
+.deep-blue-border:hover {
 	background: #24294C;
 	border: 2px solid #FFFFFF!important;
 	color: #FFFFFF!important;
 }
-.blue-border:hover{
+
+.blue-border:hover {
 	background: #3b94d9;
 	border: 2px solid #FFFFFF!important;
 	color: #FFFFFF!important;
 }
+
 /* Responsive fixes */
+
 @media only screen and (max-width: 374px) {
-	.custom-btn{
+	.custom-btn {
 		border-radius: 15px!important;
 		font-size: 0.7em;
 		font-weight: normal;
 		width: 250px;
 	}
-	.w-50-alt{
+	.w-50-alt {
 		width: 80%;
 	}
 }
-@media only screen and (max-width: 767px) {
 
-	.w-50-alt{
+@media only screen and (max-width: 767px) {
+	.w-50-alt {
 		width: 90%;
 	}
 }
-@media only screen and (max-width: 1000px) {
 
-	.w-50-alt{
+@media only screen and (max-width: 1000px) {
+	.w-50-alt {
 		width: 75%;
 	}
 }
-/* button fixes end here */
 
+/* button fixes end here */
 
 /*RESPONSIVE BUTTONS FOR MOBILE*/
 
-
-
 /*EXTRA SMALL DEVICES*/
+
 @media only screen and (max-width: 900px) {
 	.link-btn1 {
 		background: #24294C;
@@ -4082,7 +4094,7 @@ footer {
 		text-decoration: none;
 	}
 	.link-btn3 {
-		background:transparent;
+		background: transparent;
 		border: 2px solid #3b94d9;
 		border-radius: 20px;
 		color: #3b94d9;
@@ -4138,7 +4150,7 @@ footer {
 }
 
 .para {
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.025em;
 	line-height: 1.65;
 	color: #ffffff
