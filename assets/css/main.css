@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
 /*@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
@@ -1291,7 +1291,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 body, input, select, textarea {
 	color: #ffffff;
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20pt;
 	font-weight: 500;
 	letter-spacing: 0.025em;
@@ -1417,7 +1417,7 @@ blockquote {
 
 code {
 	background: rgba(212, 212, 255, 0.035);
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 0.9em;
 	margin: 0 0.25em;
 	padding: 0.25em 0.65em;
@@ -1425,7 +1425,7 @@ code {
 
 pre {
 	-webkit-overflow-scrolling: touch;
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 0.9em;
 	margin: 0 0 2em 0;
 }
@@ -3445,7 +3445,7 @@ body.is-menu-visible #menu .inner {
 	justify-content: center;
 	align-items: center;
 	background: #24294C;
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	height: 100%;
 	opacity: 1;
 	filter: alpha(opacity=100);
@@ -3556,7 +3556,7 @@ h1 {
 	color: #fff;
 	margin-bottom: 8px;
 	font-weight: 700;
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.2;
 	margin-top: 0;
 }
@@ -3579,7 +3579,7 @@ h5 {
 	width: 75%;
 	margin: 0 auto;
 	text-align: center;
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*about us */
@@ -3591,7 +3591,7 @@ h5 {
 
 h1.def {
 	margin-bottom: .5rem;
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	line-height: 1.2;
 	color: inherit;
@@ -3645,7 +3645,7 @@ a {
 }
 
 h2 {
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	text-align: left;
 }
@@ -3659,7 +3659,7 @@ h2 {
 }
 
 h5.icard {
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
 }
 
@@ -4150,7 +4150,7 @@ footer {
 }
 
 .para {
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 0.025em;
 	line-height: 1.65;
 	color: #ffffff
