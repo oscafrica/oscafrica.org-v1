@@ -1488,11 +1488,10 @@ header.major> :first-child:after {
 }
 
 header.major>p {
-	font-size: 0.7em;
+	font-size: 0.8em;
 	font-weight: 600;
 	letter-spacing: 0.25em;
 	margin-bottom: 0;
-	text-transform: uppercase;
 }
 
 body.is-ie header.major> :first-child:after {
@@ -2636,6 +2635,17 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	height: 70%;
 	line-height: inherit;
 	padding: 0 1.5em;
+	margin-top: -2px;
+}
+#header .logox {
+	border: 0;
+	display: inline-block;
+	font-size: 0.8em;
+	height: 70%;
+	line-height: inherit;
+	padding: 0 1.5em;
+	margin-top: 6px;
+
 }
 
 #header .logo strong {
