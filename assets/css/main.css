@@ -3201,7 +3201,7 @@ body.is-loading #banner>.inner {
 	margin-left: 0;
 	padding-left: 0;
 }
-
+/*
 @media screen and (max-width: 480px) {
 	#footer .copyright li {
 		/* display: block;
@@ -3209,9 +3209,9 @@ body.is-loading #banner>.inner {
 		margin-left: 0;
 		padding-left: 0;
 		line-height: inherit; */
-	}
-}
+	
 
+*/
 /* Wrapper */
 
 #wrapper {
@@ -3898,12 +3898,6 @@ footer {
 .outro {
 	color: #ffffff;
 	margin-bottom: 100px;
-}
-
-.section {
-	/* padding-top: 80px; */
-	/* padding-bottom: 80px; */
-	/* margin-bottom: 60px; */
 }
 
 .section h2 {
