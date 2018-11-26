@@ -2703,6 +2703,14 @@ button,
   white-space: nowrap;
 }
 
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus,
+button:focus,
+.button:focus {
+  outline: 0 !important;
+}
+
 input[type="submit"]:hover,
 input[type="submit"]:active,
 input[type="reset"]:hover,
@@ -3549,7 +3557,6 @@ body.is-loading #header.alt {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  background-image: url("/oscaa.png");
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
