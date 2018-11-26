@@ -13,7 +13,7 @@ Get started and know more about us here [www.oscafrica.org](https://oscafrica.or
 To ensure a sane and healthy environment for all maintainers, contributors, reviewers and community members in general, we adhere strictly to our [code of conduct](src/CODE_OF_CONDUCT.md) and also urge all members to.
 
 ## How to Contribute:
-We appreciate your efforts to help make a contribution to our project, This project is currently built with HTML5, CSS3, Javascript. To get started here's a quick guide:
+We appreciate your efforts to help make a contribution to our project, This project is currently built with HTML5, CSS3, SASS, JQUERY,  and JAVASCRIPT. To get started here's a quick guide:
 
 1. You have to be a member of the O.S.C.A community, Join [here](https://oscafrica.zulipchat.com/register/).
 2.  We use the pull-request model, see [GitHub's help on pull-request](https://help.github.com/articles/using-pull-requests).
@@ -113,8 +113,26 @@ the moment, kindly leave a comment stating that you intend to work on it so
 other people don't accidentally duplicate your effort.
 
 In a situation whereby somebody decides to fix an issue but doesn't follow up
-for a particular period of time, say 2-3 weeks, it's acceptable to still pick
+for a particular period of time, say 1 - 2 weeks, it's acceptable to still pick
 up the issue but make sure to leave a comment.
+
+### Submitting an Issue
+
+[What is an Issue?](https://guides.github.com/features/issues/)
+
+
+The Issue system on OSCA has two sections;
+
+<img src="https://raw.githubusercontent.com/BolajiAyodeji/oscommunityafrica.github.io/master/images/download.png" alt="Desktop View">
+
+- Bug Report <br>
+If you find any bug in the software, do raise a `Bug Report` issue stating the found bug. If you so wish to fix the bug, then work on it and send a pull request referencing the issue number, If you don't wan't to fix, just drop the issue and wait for help, the project maintainers would respond to the Issue.
+- Feature Request <br>
+If you wan't to propose or recommend a new feature, kindly use the `Feature Request` section to discuss your proposal.
+`Please do not work on a new feature without first raising a "Feature Request Issue" as you might be working on a feature that is not needed in the project.` <br>
+Start with the Title of your feature and Description stating why the feature should be implemented.
+
+After raising an Issue, you would receive a response from the project maintainers for approval or disapproval.
 
 
 ### Helpful Resources
