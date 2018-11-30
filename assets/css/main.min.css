@@ -2078,7 +2078,7 @@ formactions>.actions {
   }
 
   form>.actions {
-    margin: 2em 0 0 0 !important;
+  
   }
 }
 
@@ -2428,7 +2428,7 @@ ul {
 }
 
 ul li {
-  padding-left: 0.5em;
+  padding-left: 0.1em;
 }
 
 ul.alt {
@@ -3866,12 +3866,9 @@ body.is-loading #banner>.inner {
 }
 
 #footer .copyright li {
-  border-left: solid 1px rgba(212, 212, 255, 0.1);
   color: rgba(212, 212, 255, 0.178);
   display: inline-block;
   line-height: 1;
-  margin-left: 1em;
-  padding-left: 1em;
 }
 
 #footer .copyright li:first-child {
@@ -4817,4 +4814,150 @@ footer {
   letter-spacing: 0.025em;
   line-height: 1.65;
   color: #ffffff
+}
+.footer-distributed{
+	background-color: #242943;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: center;
+  padding: 4em 0 2em 0;
+  margin: 0 auto;
+  max-width: 70em;
+  width: calc(100% - 6em);
+	padding: 15px 10px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color: rgba(212, 212, 255, 0.178);
+	font-size: 0.8em;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+
+/* Footer right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+/* The search form */
+
+.footer-distributed form{
+	position: relative;
+}
+
+.footer-distributed form input{
+	display: block;
+	border-radius: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+margin-top: 10px;
+  font: inherit;
+  text-align: center;
+    height: 3.5em;
+    letter-spacing: 0.25em;
+    padding: 0 1.75em;
+	font-size: 14px;
+	color:  #d1d2d2;
+	padding: 10px 15px 10px 10px;
+}
+
+.footer-distributed form input:focus{
+	outline: none;
+}
+
+/* Changing the placeholder color */
+
+.footer-distributed form input::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed form input::-moz-placeholder {
+	opacity: 1;
+	color:  #5c666b;
+}
+
+.footer-distributed form input:-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+/* The magnify glass icon */
+
+.footer-distributed form i{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 16px;
+	right: 18px;
+
+	color: #d1d2d2;
+	font-size: 18px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed form input{
+    width: 300px;
+    margin-top: 7px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+		text-align: center;
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		margin-top: 10px;
+    font-size: 0.8em;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 20px;
+	}
+
+	.footer-distributed form input{
+    width: 100%;
+    margin-top: 7px;
+	}
+
 }
