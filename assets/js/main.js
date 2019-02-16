@@ -4,10 +4,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-
 /* Adding a simple Year Update block to get current year */
-var copy = document.getElementById("copy");
-copy.innerHTML = copy.innerHTML + new Date().getFullYear();
+var copyDate = document.getElementById("copy");
+var year = new Date().getFullYear();
+copyDate.innerHTML = copyDate.innerHTML + year;
 
 
 
