@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+* {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	padding-bottom: 5em;
+	text-align: center;
+	background-color: #ddd;
+	color: #555656;
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 30;
+	font-size: 16px;
+	line-height: 1.8
+}
+
+@media (min-width: 740px) {
+	body {
+		font-size: 18px
+	}
+}
+
+header {
+	overflow: hidden;
+	background: #272b3f;
+	text-shadow: 0 2px 20px rgba(0, 0, 0, 0.16);
+	height: 300px;
+	z-index: 0;
+	position: relative
+}
+
+.wave {
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	transform: translateY(-80%)
+}
+
+.wave svg {
+	fill: #ddd;
+	width: 102%;
+	margin-left: -1%;
+	height: auto
+}
+
+main {
+	background: #ddd;
+	z-index: 1;
+	position: relative;
+	margin-top: 0px;
+	padding-top: 1px;
+	min-height: 100vh
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	text-align: left
+}
+
+.container img {
+	width: 100%
+}
+
+@media (min-width: 740px) {
+	.container {
+		width: 600px
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 700px
+	}
+}
+
+body.thanks img {
+	width: 30%;
+	margin-top: -220px;
+	margin-left: 400px;
+	padding-bottom: 2em
+}
+
+body.thanks h1.logo {
+	margin-left: 0px
+}
+
+h1,
+h2,
+h3 {
+	color: #111;
+	font-weight: 600;
+	margin-bottom: 1em;
+	line-height: 1em
+}
+
+h1.logo {
+	width: 140px;
+	height: 100px;
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../images/osca1.png");
+	background-position: 0 0;
+	background-size: 140px;
+	background-repeat: no-repeat;
+	text-indent: -999px;
+	overflow: hidden
+}
+
+h2 {
+	margin-top: 2em
+}
+
+header .container {
+	text-align: center
+}
+
+p {
+	margin-bottom: 1em
+}
+
+ul {
+	list-style: none
+}
+
+ul small {
+	display: block;
+	margin-top: -0.2em;
+	margin-bottom: 0.5em
+}
+
+li {
+	margin-bottom: 0.6em
+}
+
+a:link,
+a:visited {
+	color: #5a7df1;
+	text-decoration: none;
+	border-bottom: solid 1px #dde0e1
+}
+
+a:hover,
+a:focus {
+	color: #111;
+	border-bottom: solid 1px #5a7df1
+}
+
+form {
+	margin-top: 3em;
+	margin-bottom: 3em;
+	padding: 3em;
+	background: #fff;
+	color: rgba(14, 30, 37, 0.54);
+	border-radius: 8px;
+	-webkit-box-shadow: 0 1px 6px 0 rgba(14, 30, 37, 0.12);
+	box-shadow: 0 1px 6px 0 rgba(14, 30, 37, 0.12)
+}
+
+input,
+textarea {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin: 0;
+	padding: 6px 14px;
+	border: 2px solid #e9ebeb;
+	border-radius: 4px;
+	background: 0 0;
+	color: #0e1e25;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	-webkit-transition: -webkit-box-shadow ease-in-out .15s;
+	transition: -webkit-box-shadow ease-in-out .15s;
+	transition: box-shadow ease-in-out .15s;
+	transition: box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-webkit-appearance: none;
+	-moz-appearance: none
+}
+
+input:focus,
+textarea:focus {
+	outline: 0;
+	border-color: #f6bc00;
+	-webkit-box-shadow: 0 0 1px 0 #f6bc00;
+	box-shadow: 0 0 1px 0 #f6bc00
+}
+
+.honey {
+	display: none
+}
+
+textarea {
+	height: 6em
+}
+
+small {
+	display: block;
+	font-size: 0.7em;
+	font-style: italic
+}
+
+.button {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	vertical-align: middle;
+	padding: .5em 1em;
+	outline: 0;
+	font-family: inherit;
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 1.2222222;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px 0 rgba(14, 30, 37, 0.12);
+	cursor: pointer;
+	background: #272b3f;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transition: all .15s ease
+}
+
+.button:hover {
+	text-decoration: none;
+	opacity: .9;
+}
