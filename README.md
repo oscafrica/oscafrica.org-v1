@@ -126,7 +126,7 @@ The Issue system on OSCA has two sections;
 <img src="https://raw.githubusercontent.com/BolajiAyodeji/oscommunityafrica.github.io/master/images/download.png" alt="Desktop View">
 
 - Bug Report <br>
-If you find any bug in the software, do raise a `Bug Report` issue stating the found bug. If you so wish to fix the bug, then work on it and send a pull request referencing the issue number, If you don't wan't to fix, just drop the issue and wait for help, the project maintainers would respond to the Issue.
+If you find any bug in the software, do raise a `Bug Report` issue stating the found bug. If you so wish to fix the bug, then work on it and send a pull request referencing the issue number, If you don't want to fix, just drop the issue and wait for help, the project maintainers would respond to the Issue.
 - Feature Request <br>
 If you want to propose or recommend a new feature, kindly use the `Feature Request` section to discuss your proposal.
 `Please do not work on a new feature without first raising a "Feature Request Issue" as you might be working on a feature that is not needed in the project.` <br>

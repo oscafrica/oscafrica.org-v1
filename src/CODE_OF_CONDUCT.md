@@ -12,7 +12,7 @@ Always make use of your best judgement, and if you’d like more clarity or have
 
 
 
-## Community Guidelines and Anti-Harrasment policy:
+## Community Guidelines and Anti-Harassment policy:
 
 ### Members and Contributors Acknowledgement: 
 * Respect: We're all part of the same community, be friendly, welcoming, and generally a nice person. All members of OSCA are expected to be of most polite manner when interacting with other members. treat others how you want to be treated,Be someone that other people want to be around.It’s all about “team effort”
