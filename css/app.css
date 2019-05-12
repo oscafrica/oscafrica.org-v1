@@ -5,6 +5,11 @@
 	padding: 0
 }
 
+::selection {
+  background-color: #272b3f;
+	color: #fff;
+}
+
 body {
 	padding-bottom: 5em;
 	text-align: center;
