@@ -119,7 +119,7 @@ p {
 }
 
 ul {
-	list-style: square;
+	list-style: none;
 }
 
 ul small {
