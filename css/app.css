@@ -8,7 +8,7 @@
 body {
 	padding-bottom: 5em;
 	text-align: center;
-	background-color: #ddd;
+	background-color: #fff;
 	color: #555656;
 	font-family: 'Source Sans Pro', sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -40,14 +40,14 @@ header {
 }
 
 .wave svg {
-	fill: #ddd;
+	fill: #fff;
 	width: 102%;
 	margin-left: -1%;
 	height: auto
 }
 
 main {
-	background: #ddd;
+	background: #fff;
 	z-index: 1;
 	position: relative;
 	margin-top: 0px;
@@ -76,17 +76,6 @@ main {
 	.container {
 		width: 700px
 	}
-}
-
-body.thanks img {
-	width: 30%;
-	margin-top: -220px;
-	margin-left: 400px;
-	padding-bottom: 2em
-}
-
-body.thanks h1.logo {
-	margin-left: 0px
 }
 
 h1,
@@ -155,8 +144,8 @@ form {
 	margin-top: 3em;
 	margin-bottom: 3em;
 	padding: 3em;
-	background: #fff;
-	color: rgba(14, 30, 37, 0.54);
+	background: #ddd;
+	color: #000;
 	border-radius: 8px;
 	-webkit-box-shadow: 0 1px 6px 0 rgba(14, 30, 37, 0.12);
 	box-shadow: 0 1px 6px 0 rgba(14, 30, 37, 0.12)
