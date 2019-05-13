@@ -95,7 +95,8 @@
         <p>Sure you can handle any of those? Apply below!</p>
       </b>
 
-      <form name='volunteer' action='/thanks' method='post'><input type='hidden' name='form-name' value='volunteer' />
+      <form name='volunteer' action='/thanks' method='post' data-netlify="true">
+        <input type='hidden' name='form-name' value='volunteer' />
         <p class="honey">
           <label>Your full name: <input name="full-name"></label>
           <input type="hidden" name="tab" id="tab" value="1" required>
