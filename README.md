@@ -37,8 +37,9 @@ Issues can be submitted by anyone, seasoned developers or newbies.
     ![Illustration for how to fork a repository](https://hisham.hm/img/posts/github-fork.png)
 
 3.  Clone the project.
-
-    ![Illustration for how to clone the project](https://services.github.com/on-demand/images/gifs/github-desktop/clone-repository-locally.gif)
+    ```bash
+      git clone https://github.com/<your username>/oscommunityafrica.github.io.git && cd oscommunityafrica.github.io
+     ```
 
 4.  Create a branch specific to the issue you are working on.
 
