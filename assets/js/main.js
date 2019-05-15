@@ -4,8 +4,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-	
-	
+
+
 
 (function($) {
 
@@ -31,14 +31,14 @@
 		}
 	  }
 */
-	  
 
-	  
 
-	  
-	  
 
-	
+
+
+
+
+
 	$.fn._parallax = (skel.vars.browser == 'ie' || skel.vars.browser == 'edge' || skel.vars.mobile) ? function() { return $(this) } : function(intensity) {
 
 		var	$window = $(window),
@@ -370,3 +370,8 @@
 	});
 
 })(jQuery);
+
+let c = document.getElementById('copy');
+let cd = new Date().getFullYear();
+c.innerHTML = cd;
+
