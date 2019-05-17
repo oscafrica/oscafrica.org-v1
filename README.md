@@ -3,7 +3,7 @@
 Open Source Community Africa is a community of open source advocates and contributors across Africa, with the sole aim of growing and building the spirit of open source development and contribution through an increase in the rate of credible contributions towards maintaining open source technologies by African software developers, designers and all career fields in technology both on a local and global scale.
 
 ## Why O.S.C.A ?
-As a community, we intend to promote the culture of open source contribution amongst African developer and also strongly advocate for the development of free and open source software by giving people the opportunity and technical empowerment to make credible contributions towards building and maintaining open source projects/softwares.
+As a community, we intend to promote the culture of open source contribution amongst African developers and also strongly advocate for the development of free and open source software by giving people the opportunity and technical empowerment to make credible contributions towards building and maintaining open source projects/softwares.
 
 Get started and know more about us here [www.oscafrica.org](https://oscafrica.org)
 ![fb_img_1537794640977](https://user-images.githubusercontent.com/32304161/45957843-e8582a00-c00d-11e8-9b47-c4055ed661c8.jpg)
@@ -127,9 +127,9 @@ The Issue system on OSCA has two sections;
 <img src="https://raw.githubusercontent.com/BolajiAyodeji/oscommunityafrica.github.io/master/images/download.png" alt="Desktop View">
 
 - Bug Report <br>
-If you find any bug in the software, do raise a `Bug Report` issue stating the found bug. If you so wish to fix the bug, then work on it and send a pull request referencing the issue number, If you don't wan't to fix, just drop the issue and wait for help, the project maintainers would respond to the Issue.
+If you find any bug in the software, do raise a `Bug Report` issue stating the found bug. If you so wish to fix the bug, then work on it and send a pull request referencing the issue number, If you don't want to fix, just drop the issue and wait for help, the project maintainers would respond to the Issue.
 - Feature Request <br>
-If you wan't to propose or recommend a new feature, kindly use the `Feature Request` section to discuss your proposal.
+If you want to propose or recommend a new feature, kindly use the `Feature Request` section to discuss your proposal.
 `Please do not work on a new feature without first raising a "Feature Request Issue" as you might be working on a feature that is not needed in the project.` <br>
 Start with the Title of your feature and Description stating why the feature should be implemented.
 
