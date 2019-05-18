@@ -10,16 +10,8 @@
   <title>Open Source Community Africa</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <!--[if lte IE 8
-      ]><script src="assets/js/ie/html5shiv.js"></script
-    ><![endif]-->
-  <link rel="stylesheet" href="assets/css/main.min.css" />
-  <!--[if lte IE 9
-      ]><link rel="stylesheet" href="assets/css/ie9.css"
-    /><![endif]-->
-  <!--[if lte IE 8
-      ]><link rel="stylesheet" href="assets/css/ie8.css"
-    /><![endif]-->
+
+  <link rel="stylesheet" href="assets/css/main.css" />
 
   <meta name="description" content="A community of creative minds driving the open source movement in Africa" />
   <meta name="keywords"
@@ -57,8 +49,12 @@
   <link rel="shortcut icon" type="image/x-icon" href="images/osca.png" />
   <!-- Favicon -->
   <meta name="google-site-verification" content="syKjnJ8wjjqZfM_F-EL-zhk18BX_TCp_bOpvc9TeYxc" />
-  <script
-    id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/2339b35e3ca4c86944e0601d0/ad22a9c290a08ef486c3c2eae.js");</script>
+  <script id="mcjs">
+    ! function (c, h, i, m, p) {
+      m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
+    }(document, "script",
+      "https://chimpstatic.com/mcjs-connected/js/users/2339b35e3ca4c86944e0601d0/ad22a9c290a08ef486c3c2eae.js");
+  </script>
 </head>
 
 <body>
@@ -77,13 +73,13 @@
         <img class="menu-image" src="images/osca.png" alt="osca logo" />
         <ul class="links">
           <li><a href="/">Home</a></li>
-          <li><a href="about-us.html">About US</a></li>
+          <li><a href="about-us">About US</a></li>
           <!--
               <li>
-              	<a href="team.html">Our Team</a>
+              	<a href="team">Our Team</a>
               </li>
             -->
-          <li><a href="community.html">Community Page</a></li>
+          <li><a href="community">Community Page</a></li>
           <li><a href="https://medium.com/open-source-community-africa">Blog</a></li>
           <li>
             <a style="text-decoration: none;" href="https://bit.ly/osca-chapter" class="button default">Host an
@@ -177,12 +173,13 @@
           <span class="image"> <img src="images/pic05.jpg" alt="" /> </span>
           <header class="major">
             <h3 style="text-transform:uppercase;">
-              <a href="https://github.com/oscommunityafrica/made-in-nigeria" target="_blank" class="link">Made In Africa</a>
+              <a href="https://github.com/oscommunityafrica/made-in-nigeria" target="_blank" class="link">Made In
+                Africa</a>
             </h3>
             <p>
               It is rumored that Africans only know how to consume technologies that others have already created.
               <br /><br />Debunking
-              this myth, here is a curation of awesome tools built by
+              this myth, here is a curated list of awesome tools built by
               Africans that can be used by anybody anywhere in the world.
             </p>
           </header>
@@ -303,7 +300,7 @@
           </li>
         </ul>
         <ul class="copyright">
-          <li>&copy; OSCA 2018</li>
+          <li>&copy; OSCA <span id="copy"></span></li>
           <li>HTML5 UP</li>
         </ul>
       </div>
@@ -316,9 +313,7 @@
   <script src="assets/js/jquery.scrollex.min.js"></script>
   <script src="assets/js/skel.min.js"></script>
   <script src="assets/js/min/util.min.js"></script>
-  <!--[if lte IE 8
-      ]><script src="assets/js/ie/respond.min.js"></script
-    ><![endif]-->
+
   <script src="assets/js/main.js"></script>
 </body>
 

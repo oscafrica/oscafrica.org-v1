@@ -1,10 +1,5 @@
 @import url(font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /* Reset */
 
@@ -1864,11 +1859,11 @@ a {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: #9bf1ff !important;
+	color: #ddd !important;
 }
 
 a:active {
-	color: #53e3fb !important;
+	color: #ddd !important;
 }
 
 strong,
