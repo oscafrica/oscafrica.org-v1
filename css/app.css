@@ -145,7 +145,7 @@ a:focus {
 	border-bottom: solid 1px #5a7df1
 }
 
-form {
+.form {
 	margin-top: 3em;
 	margin-bottom: 3em;
 	padding: 3em;
