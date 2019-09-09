@@ -18,7 +18,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
-ErrorDocument 404 /404.php
+ErrorDocument 404 /404.html
 
 #GZIP Compression
 <IfModule mod_gzip.c>
