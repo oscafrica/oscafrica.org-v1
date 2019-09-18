@@ -189,6 +189,9 @@ a {
 a:hover {
 	color: #065b86;
 	text-decoration: none;
+}
+
+.osca-email:hover {
 	border-bottom: 3px dotted #000;
 }
 
