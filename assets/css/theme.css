@@ -188,7 +188,8 @@ a {
 
 a:hover {
 	color: #065b86;
-	text-decoration: underline
+	text-decoration: none;
+	border-bottom: 3px dotted #000;
 }
 
 a:not([href]):not([tabindex]) {
