@@ -2536,7 +2536,7 @@ textarea.form-control.is-invalid {
 	padding: .375rem .75rem;
 	font-size: 1rem;
 	line-height: 1.5;
-	border-radius: .25rem;
+	border-radius: 6px;
 	-webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
 }

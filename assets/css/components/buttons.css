@@ -1,0 +1,142 @@
+
+.btn-osca-one {
+	color: #fff;
+	background-color: #283756;
+}
+
+.btn-osca-one:hover {
+	color: #fff;
+	background-color: #445984;
+}
+
+.btn-osca-one:focus,
+.btn-osca-one.focus {
+	box-shadow: 0 0 0 .2rem rgba(46, 158, 214, 0.5)
+}
+
+.btn-osca-one.disabled,
+.btn-osca-one:disabled {
+	color: #fff;
+	background: rgba(150, 173, 221, 0.33);
+}
+
+.btn-osca-one:not(:disabled):not(.disabled):active,
+.btn-osca-one:not(:disabled):not(.disabled).active,
+.show>.btn-osca-one.dropdown-toggle {
+	color: #fff;
+	background-color: #96ADDD;
+}
+
+.btn-osca-one:not(:disabled):not(.disabled):active:focus,
+.btn-osca-one:not(:disabled):not(.disabled).active:focus,
+.show>.btn-osca-one.dropdown-toggle:focus {
+	box-shadow: 0 0 0 .2rem #96ADDD
+}
+
+
+
+.btn-osca-two {
+	color: #fff;
+	border: 1px solid #283756;
+}
+
+.btn-osca-two:hover {
+	color: #fff;
+	border: 1px solid #445984
+}
+
+.btn-osca-two:focus,
+.btn-osca-two.focus {
+	box-shadow: 0 0 0 .2rem rgba(46, 158, 214, 0.5)
+}
+
+.btn-osca-two.disabled,
+.btn-osca-two:disabled {
+	color: #fff;
+	border: 1px solid rgba(150, 173, 221, 0.33);
+}
+
+.btn-osca-two:not(:disabled):not(.disabled):active,
+.btn-osca-two:not(:disabled):not(.disabled).active,
+.show>.btn-osca-two.dropdown-toggle {
+	color: #fff;
+	border: 1px solid #96ADDD;
+}
+
+.btn-osca-two:not(:disabled):not(.disabled):active:focus,
+.btn-osca-two:not(:disabled):not(.disabled).active:focus,
+.show>.btn-osca-two.dropdown-toggle:focus {
+	box-shadow: 0 0 0 .2rem #96ADDD
+}
+
+
+
+.btn-osca-three {
+	color: #fff;
+	background-color: #F7931E;
+}
+
+.btn-osca-three:hover {
+	color: #fff;
+	background-color: #F9AA4F;
+}
+
+.btn-osca-three:focus,
+.btn-osca-three.focus {
+	box-shadow: 0 0 0 .2rem #F5C388
+}
+
+.btn-osca-three.disabled,
+.btn-osca-three:disabled {
+	color: #fff;
+	background-color: rgba(245, 195, 136, 0.33);
+}
+
+.btn-osca-three:not(:disabled):not(.disabled):active,
+.btn-osca-three:not(:disabled):not(.disabled).active,
+.show>.btn-osca-three.dropdown-toggle {
+	color: #fff;
+	background-color: #F5C388;
+}
+
+.btn-osca-three:not(:disabled):not(.disabled):active:focus,
+.btn-osca-three:not(:disabled):not(.disabled).active:focus,
+.show>.btn-osca-one.dropdown-toggle:focus {
+	box-shadow: 0 0 0 .2rem #F5C388
+}
+
+
+
+.btn-osca-four {
+	color: #fff;
+	border: 1px solid #F7931E;
+}
+
+.btn-osca-four:hover {
+	color: #fff;
+	border: 1px solid #F9AA4F;
+}
+
+.btn-osca-four:focus,
+.btn-osca-four.focus {
+	box-shadow: 0 0 0 .2rem#F5C388;
+}
+
+.btn-osca-four.disabled,
+.btn-osca-four:disabled {
+	color: #fff;
+	border: 1px solid #F5C388;
+}
+
+.btn-osca-four:not(:disabled):not(.disabled):active,
+.btn-osca-four:not(:disabled):not(.disabled).active,
+.show>.btn-osca-four.dropdown-toggle {
+	color: #fff;
+	border: 1px solid #F5C388;
+}
+
+.btn-osca-four:not(:disabled):not(.disabled):active:focus,
+.btn-osca-four:not(:disabled):not(.disabled).active:focus,
+.show>.btn-osca-one.dropdown-toggle:focus {
+	box-shadow: 0 0 0 .2rem #F5C388;
+}
