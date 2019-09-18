@@ -36,12 +36,12 @@
 
 
 .btn-osca-two {
-	color: #fff;
+	color: #000;
 	border: 1px solid #283756;
 }
 
 .btn-osca-two:hover {
-	color: #fff;
+	color: #000;
 	border: 1px solid #445984
 }
 
@@ -52,14 +52,14 @@
 
 .btn-osca-two.disabled,
 .btn-osca-two:disabled {
-	color: #fff;
+	color: #000;
 	border: 1px solid rgba(150, 173, 221, 0.33);
 }
 
 .btn-osca-two:not(:disabled):not(.disabled):active,
 .btn-osca-two:not(:disabled):not(.disabled).active,
 .show>.btn-osca-two.dropdown-toggle {
-	color: #fff;
+	color: #000;
 	border: 1px solid #96ADDD;
 }
 
