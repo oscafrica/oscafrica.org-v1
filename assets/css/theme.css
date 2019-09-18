@@ -10520,7 +10520,7 @@ a.theme-link:hover {
 .hero-block {
 	position: relative;
 	background-size: cover;
-	height: 620px;
+	height: 700px;
 	padding-top: 130px
 }
 
@@ -10599,7 +10599,7 @@ a.theme-link:hover {
 
 .stats-block .unit {
 	font-size: 1.5rem;
-	color: rgba(0, 0, 0, 0.6)
+	color: #96ADDD;
 }
 
 .countdown-box span {
