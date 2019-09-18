@@ -1,4 +1,6 @@
-# Open Source Community Africa - O.S.C.A
+# Open Source Community Africa - O.S.C.A 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/89bd53bc-e13a-42cb-8d36-e4b5a47b0f18/deploy-status)](https://app.netlify.com/sites/oscafrica/deploys)
 
 Open Source Community Africa is a community of open source advocates and contributors across Africa, with the sole aim of growing and building the spirit of open source development and contribution through an increase in the rate of credible contributions towards maintaining open source technologies by African software developers, designers and all career fields in technology both on a local and global scale.
 
