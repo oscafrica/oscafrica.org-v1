@@ -8,26 +8,20 @@
 
 
 <url>
-  <loc>https://oscafrica.org/</loc>
-  <lastmod>2018-09-06T23:29:24+00:00</lastmod>
+  <loc>https://www.oscafrica.org/</loc>
+  <lastmod>2019-09-20T18:27:06+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://oscafrica.org/about-us.html</loc>
-  <lastmod>2018-09-06T23:29:24+00:00</lastmod>
+  <loc>https://www.oscafrica.org/about-us</loc>
+  <lastmod>2019-09-20T18:27:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://oscafrica.org/team.html</loc>
-  <lastmod>2018-09-06T23:29:24+00:00</lastmod>
+  <loc>https://www.oscafrica.org/community</loc>
+  <lastmod>2019-09-20T18:27:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://oscafrica.org/elements.html</loc>
-  <lastmod>2018-09-06T23:29:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
 
 
 </urlset>
