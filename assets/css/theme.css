@@ -10602,12 +10602,12 @@ a.theme-link:hover {
 
 .stats-block .unit {
 	font-size: 1.5rem;
-	color: #283756;
+	color: #FFFFFF;
 }
 
 .countdown-box span {
 	display: inline-block;
-	padding: 0.5rem 0;
+	padding: 0.5rem 0.55rem;
 	min-width: 60px
 }
 
@@ -10617,8 +10617,8 @@ a.theme-link:hover {
 }
 
 .countdown-box .number {
-	font-size: 4rem;
-	font-weight: 700;
+	font-size: 3rem;
+	font-weight: 600;
 	color: #FFFFFF
 }
 
