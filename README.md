@@ -147,7 +147,7 @@ After raising an Issue, you would receive a response from the project maintainer
 - [Git/ Git Hub on Windows](https://www.youtube.com/watch?v=J_Clau1bYco)
 
 
-For a complete guide on contributing, please visit our [resources](https://github.com/oscommunityafrica/docs).
+For a complete guide on contributing, please visit our [resources](https://github.com/oscafrica/docs).
 
 ## Versioning
 
