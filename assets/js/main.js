@@ -368,7 +368,6 @@
 				});
 			// Generate copyright Year
 			$('#copy').text(new Date().getFullYear());
-
 	});
 
 })(jQuery);
