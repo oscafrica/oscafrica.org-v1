@@ -366,12 +366,11 @@
 							$menu._hide();
 
 				});
+			// Generate copyright Year
+			$('#copy').text(new Date().getFullYear());
 
 	});
 
 })(jQuery);
 
-let c = document.getElementById('copy');
-let cd = new Date().getFullYear();
-c.innerHTML = cd;
 
